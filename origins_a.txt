@@ -305,4 +305,7 @@ In her hand is a folded up dog leash, and the woman looks relieved as you
 pull up next to her. She gestures down South Negley Avenue, as if she's
 expecting you to turn.
 
+(00010) Abandon your job and go look for her dog.
+(00011) Shake your head in apology and pedal on.
 
+---

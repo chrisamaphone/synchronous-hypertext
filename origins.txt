@@ -11,29 +11,48 @@ Right now,
 
 00000
 
+In this ending, the runner plays with a dog and the courier goes looking
+for the dog.
+
 ---
 
 00001
+
+In this ending, the courier ignores the woman with the lost dog whil the
+runner plays with it.
 
 ---
 
 00010
 
+The courier looks for the dog. The runner climbs a tree (actually not really
+I'm just joking.)
+
 ---
 
 00011
+
+On this page, we see a little girl giggling at a hippopotamus.
 
 ---
 
 00100
 
+Nu sculon heriagn heofon rices weard meotodes meahte ond his modgethanc
+weorc wulder faeder swa he wundra yawes.
+
 ---
 
 00101
 
+"Jump!" said the wizard, and I had little choice but to oblige, for his
+command drove deep into my skull and grasped the endings of my spine.
+
 ---
 
 00110
+
+We can always fly to the stars when nothing else works for us.
 
 ---
 
