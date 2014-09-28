@@ -485,7 +485,7 @@ var BobStory =
   },
 
   "z_0" :
-  { text : "You skirt around the barricades for the road and stay on the sidewalk. No one calls out to stop you, so you just keep going.</p><p>Some gravel manages to work its way into your sock as you jog over the uneven ground.</p>", 
+  { text : "<p>You skirt around the barricades for the road and stay on the sidewalk. No one calls out to stop you, so you just keep going.</p><p>Some gravel manages to work its way into your sock as you jog over the uneven ground.</p>", 
     choices: [ "It's not a big deal.", "That's really annoying."], 
     links: ["z_00", "z_01"]
   },
@@ -784,25 +784,41 @@ function render() {
   // do nothing
   }
   else if (mode == "start") {   
-    passage = cursors[character];
-    $("#choice"+character+"A").text(passage.choices[0]);
-    $("#choice"+character+"B").text(passage.choices[1]);
-    $("#choice"+character+"A").show();
-    $("#choice"+character+"B").show();
+    // this is for single character mode
+//     passage = cursors[character];
+//     $("#choice"+character+"A").text(passage.choices[0]);
+//     $("#choice"+character+"B").text(passage.choices[1]);
+//     $("#choice"+character+"A").show();
+//     $("#choice"+character+"B").show();
+  // this is for multi character mode
+    for (var ch in story) {
+      passage = cursors[ch];
+      $("#choice"+ch+"A").text(passage.choices[0]);
+      $("#choice"+ch+"B").text(passage.choices[1]);
+      $("#choice"+ch+"A").show();
+      $("#choice"+ch+"B").show();
+    }
+
     mode = "playing";
   } 
   else {
+    for (var ch in story) {
+      $("#choice"+ch+"A").text(cursors[ch].choices[0]);
+      $("#choice"+ch+"B").text(cursors[ch].choices[1]);
+    }
   // choice fields for the *selected* character to set up the next choice.
-    choices = cursors[character]["choices"];
-    $("#choice"+character+"A").text(choices[0]);
-    $("#choice"+character+"B").text(choices[1]);
+//     choices = cursors[character]["choices"];
+//     $("#choice"+character+"A").text(choices[0]);
+//     $("#choice"+character+"B").text(choices[1]);
   }
 }
 
 function end_game() {
   console.log("game ended");
-  $("#choice"+character+"A").hide();
-  $("#choice"+character+"B").hide();
+  for (var ch in story) {
+    $("#choice"+ch+"A").hide();
+    $("#choice"+ch+"B").hide();
+  }
   if (character == "Alice") {
     $("#restartBtnAlice").show();
   } else {
@@ -815,10 +831,16 @@ function init_game() {
   $("#restartBtnAlice").hide();
   $("#restartBtnBob").hide();
 
-  $("#choiceAliceA").hide();
-  $("#choiceAliceB").hide();
-  $("#choiceBobA").hide();
-  $("#choiceBobB").hide();
+//  $("#choiceAliceA").hide();
+//  $("#choiceAliceB").hide();
+//  $("#choiceBobA").hide();
+//  $("#choiceBobB").hide();
+//
+
+  for (var ch in story) {
+    $("#choice"+ch+"A").show();
+    $("#choice"+ch+"B").show();
+  }
   
   // initialize cursors to the "start" field of each story
   for (var ch in story) {
@@ -879,16 +901,29 @@ function choose(choice) {
 function pickCharacter(c) {
   character = c;
 
-  // register choice clicky callbacks
-  $("#choice"+c+"A").click(function () {
-    console.log("chose A");
-    choose(0);
-  });
+  // this is for controlling only a single char
+//   $("#choice"+c+"A").click(function () {
+//     console.log("chose A");
+//     choose(0);
+//   });
+// 
+//   $("#choice"+c+"B").click(function () {
+//     console.log("chose B");
+//     choose(1);
+//   });
 
-  $("#choice"+c+"B").click(function () {
-    console.log("chose B");
-    choose(1);
-  });
+  // this is for controlling all chars at once:
+  for (var ch in story) {
+    $("#choice"+ch+"A").click(function () {
+        console.log("chose A");
+        choose(0);
+    });
+    
+    $("#choice"+ch+"B").click(function () {
+      console.log("chose B");
+      choose(1);
+    });
+  }
 
   // update prefixes for every character
   for (var ch in cursors) {
