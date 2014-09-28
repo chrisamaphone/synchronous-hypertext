@@ -32,7 +32,7 @@ spontaneous hill workout.
 In fact, you can see the Snegley hill looming a block ahead of you.
 
 (z_10) Actually, never mind; turn right on Wilkins Avenue instead.
-(z_01) Tell your legs to shut up and sprint for it.
+(z_11) Tell your legs to shut up and sprint for it.
 
 ---
 
@@ -138,7 +138,7 @@ what time it is.
 
 z_010
 
-You run awkwardly at an uneven gait, alternating between slapping thek
+You run awkwardly at an uneven gait, alternating between slapping the
 pavement with rubber and sock. The dog runs back the way you came. 
 
 You have no choice but to follow if you want your shoe back.
