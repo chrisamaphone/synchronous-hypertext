@@ -78,27 +78,6 @@ var AliceStory = {
     links: ["a_0010", "a_0011"]
   },
 
-  "a_0010" :
-  {
-    text: "<p>The dog keeps pace with you with a loping gait, its tongue hanging out of a\
-            knowing grin. What do dogs even think they know, anyway?</p>\
-            <p>You've got a package to deliver, so you can't keep staring at it forever.</p>",
-    choices: ["Give it a quick pat on the head and move on", 
-              "Order it to stay put so it doesn't get in your way."],
-    links: ["00100", "00101"]
-  },
-
-  "a_0011" :
-  {
-    text: "<p>It's better to be cautiously pessimistic about these things, so you brace\
-            yourself in case the dog tries something stupid. It doesn't, though; it just\
-            slows down and stares at you with its head cocked in confusion.</p>\
-            <p>You've got a package to deliver, so you can't keep staring at it forever.</p>",
-    choices: ["Give it a quick pat on the head and move on", 
-              "Order it to stay put so it doesn't get in your way."],
-    links: ["00110", "00111"]
-  },
-
   "a_010" :
   {
     text: "<p>The traffic's not worth sitting through, and you've got this package\
@@ -156,7 +135,48 @@ var AliceStory = {
     choices: ["Shift it a little.", "Leave it where it is."],
     links: ["a_1110", "a_1111"]
   },
+
+  "a_0000" :
+  {
+    text: "<p> You don't know what that woman is up to, but you narrowly manage to avoid\
+hitting her as you blow through the intersection. She's shouting something\
+at you, but her words are buried by the rain hitting your helmet.</p>",
+    choices: ["Swing back around and see what's wrong.",
+              "Never mind."],
+    links: ["00000", "00001"],
+  },
   
+  "a_0001" :
+  {
+    text: "<p> In her hand is a folded up dog leash, and the woman looks relieved as you\
+pull up next to her. She gestures down South Negley Avenue, as if she's\
+expecting you to turn.</p>",
+    choices: ["Abandon your job and go look for her dog.",
+              "Shake your head in apology and pedal on."],
+    links: ["00010", "00011"],
+  },
+  
+  "a_0010" :
+  {
+    text: "<p>The dog keeps pace with you with a loping gait, its tongue hanging out of a\
+            knowing grin. What do dogs even think they know, anyway?</p>\
+            <p>You've got a package to deliver, so you can't keep staring at it forever.</p>",
+    choices: ["Give it a quick pat on the head and move on", 
+              "Order it to stay put so it doesn't get in your way."],
+    links: ["00100", "00101"]
+  },
+
+  "a_0011" :
+  {
+    text: "<p>It's better to be cautiously pessimistic about these things, so you brace\
+            yourself in case the dog tries something stupid. It doesn't, though; it just\
+            slows down and stares at you with its head cocked in confusion.</p>\
+            <p>You've got a package to deliver, so you can't keep staring at it forever.</p>",
+    choices: ["Give it a quick pat on the head and move on", 
+              "Order it to stay put so it doesn't get in your way."],
+    links: ["00110", "00111"]
+  },
+
   "a_1000" :
   {
     text: "<p>The barricade only covers the road, so you pop over the curb and roll\
