@@ -507,73 +507,108 @@ var AliceStory = {
   },
   
   "10100" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, and everyone on the ground\
+          breathed a simultaneous sigh of relief.</p>\
+          <p>A courier meant to deliver a package, and the recipient almost\
+          missed the delivery window.</p>\
+          <p>The rain eased up overnight.</p>",
     choices: [],
     links: []
   },
   
   "10101" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, but the clouds showed no\
+           sign of letting up. </p>\
+           <p>A courier carried an important package, but no one was there to receive\
+           it.</p>\
+           <p>The recipient went out for a run earlier in the day, but became discouraged\
+           because of the weather and forgot to pick up the package.</p>",
     choices: [],
     links: []
   },
   
   "10110" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A drenched and soggy runner moves along under the rain and waved at a\
+          passing courier.</p>\
+          <p>\"Nice rack! Gimme a lift for a dollar?\"</p>\
+          <p>The courier grins and flips off the runner simultaneously. There wasn't enough time left on the clock to stop and banter with everyone who made stupid comments.</p>",
     choices: [],
     links: []
   },
   
   "10111" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier worried about the time while making a lot of bad pathfinding decisions. There was a package to deliver, and the delivery window was closing.</p>\
+          <p>\"Hey, dickwheels, watch it!\" scolded a soggy runner who was annoyed at almost getting run over by the distracted courier.</p>\
+          <p>The courier considered less stressful job options.</p>",
     choices: [],
     links: []
   },
   
   "11000" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, and everyone on the ground breathed a simultaneous sigh of relief.</p>\
+<p>A courier was late for a delivery, but so was the recipient, who had gone on a long, hard run.</p>\
+<p>Somehow, they still managed to converge at the drop-off point at the right time.</p>\
+<p>The rain eased up overnight.</p>",
     choices: [],
     links: []
   },
   
   "11001" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, and everyone on the ground breathed a simultaneous sigh of relief.</p>\
+<p>A courier was late for a delivery, but so was the recipient, who had gone on a long, hard run.</p>\
+<p>Somehow, they still managed to converge at the drop-off point at the right time.</p>\
+<p>The rain eased up overnight.</p>",
     choices: [],
     links: []
   },
   
   "11010" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, but the clouds showed no sign of letting up. </p>\
+<P>A courier was supposed to deliver an important package, but never made it there on time. The recipient didn't make it either, after getting distracted by a long, hard run.</p>\
+<p>The rain continued overnight, and waited for a chance to try again.</p>",
     choices: [],
     links: []
   },
   
   "11011" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, but the clouds showed no sign of letting up. </p>\
+<P>A courier was supposed to deliver an important package, but never made it there on time. The recipient didn't make it either, after getting distracted by a long, hard run.</p>\
+<p>The rain continued overnight, and waited for a chance to try again.</p>",
     choices: [],
     links: []
   },
   
   "11100" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier carrying an important package let go of the handlebars at exactly the wrong moment. </p>\
+<p>The recipient of the package went out for a run earlier in the day, and lost track of the time.</p>\
+<p>The package, the courier, and the runner converged.</p>",
     choices: [],
     links: []
   },
   
   "11101" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier carrying an important package let go of the handlebars at exactly the wrong moment. </p>\
+<p>The recipient of the package went out for a run earlier in the day, and lost track of the time.</p>\
+<p>The package, the courier, and the runner almost collided, but at the last possible instant, the runner looked up and dodged. The courier swerved.</p>\
+<p>Conclusions were drawn and the package was delivered on the spot.</p>\
+<p>The rain eased up overnight.</p>",
     choices: [],
     links: []
   },
   
   "11110" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p>\"Sorry!\" a courier shouted at a runner who stood too close to a puddle.</p>\
+<p>The courier sped off with an important package, but didn't realize the recipient was the runner.</p>\
+<p>The rain continued overnight.</p>",
     choices: [],
     links: []
   },
   
   "11111" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A runner got splashed by some passing courier, who sped off with an important package.</p>\
+<p>The runner trudged on to reach an exchange point to pick up a package.</p>\
+<p>\"It's you!\" the runner shouted in surprise at the courier. \"You're the dickwheel who splashed me!\"</p>\
+<p>The package was delivered, and the rain eased up overnight.</p>",
     choices: [],
     links: []
   }
