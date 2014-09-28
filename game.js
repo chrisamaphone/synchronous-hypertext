@@ -283,7 +283,7 @@ var AliceStory = {
   
   "00000" :
   { text: "<p>\"I lost my dog,\" a woman said to a passing cyclist, who seemed intent to\
-ignore her at first. \"Have you seen Roller?\"</p>\
+           ignore her at first. \"Have you seen Roller?\"</p>\
            <p>The cyclist, impatient with a delivery job, only gave her a helpless shrug.</p>\
            <p>Roller had escaped not too long ago, and made friends with a quiet jogger a\
            few streets over. The jogger led him unknowingly towards the meeting between\
@@ -307,109 +307,201 @@ ignore her at first. \"Have you seen Roller?\"</p>\
   },
   
   "00010" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p>\"His name is Roller,\" a woman said to a kind cyclist who stopped to help.\
+          \"He broke off his leash and took off.\"</p>\
+          <p>\"How long ago was this?\" the cyclist asked, while dismounting.</p>\
+	  <p>It wasn't too long ago, and Roller had in fact met a jogger a few\
+          streets over. \"Sit!\" the jogger said optimistically, while trying to\
+          figure out how to return him to his owner.</p>\
+          <p>Roller wasn\'t very good at following directions, or he just had his own\
+          plans for his day. Suspecting the jogger of unkind intentions, he\
+          danced across the street, through some bushes, and disappeared into the\
+          neighborhood.</p>\
+          <p>In the following days, the woman put up \'MISSING DOG\' signs all over the\
+          neighborhood.</p>",
     choices: [],
     links: []
   },
   
   "00011" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p>\"Hey!\" a woman shouted at a passing cyclist, who blew by without a care.\
+          All she wanted was an extra set of eyes to look for her dog.</p>\
+          <p>The dog\'s name was Roller, and he had escaped not too long ago and made\
+          friends with a quiet jogger a few streets over. They continued running\
+          together while the jogger hoped to pass someone who might have a phone.</p>\
+          <p>Before long, though, Roller and the jogger ended up back where the woman\
+          was standing around ineffectually. The three of them converged.</p>",
     choices: [],
     links: []
   },
   
   "00100" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier waited around at the designated drop-off point, after\
+          getting a strange feeling that sometimes animals might know more\
+          than they let on.</p>\
+          <p>The rain grew stronger as the seconds ticked away.</p>\
+          <p>After the delivery window closed, the courier shrugged and went back to\
+           headquarters.</p>",
     choices: [],
     links: []
   },
   
   "00101" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p>A runner moved across the world with blissful abandon, disregarding any\
+           responsibilities. </p>\
+           <p>The rain grew stronger.</p>\
+           <p>A dog barked at a courier who didn't know any better. The courier waited\
+           impatiently at the drop off point until the delivery window closed.</p>",
     choices: [],
     links: []
   },
   
   "00110" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier waited around at the designated drop-off point, after\
+           getting a strange feeling that sometimes animals might know more\
+           than they let on.</p>\
+           <p>After waiting at the drop off point for almost the entire delivery\
+           window, a runner came screeching around the corner.</p>\
+           <p>\"Sorry, I'm late.\"</p>\
+           <p>\"Not yet\; you have eighty-three seconds to spare.\"</p>\
+           <p>The courier passed the package to the runner.</p>\
+           <p>Later that night, the rain stopped.</p>",
     choices: [],
     links: []
   },
   
   "00111" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A runner moved across the world with a casual lack of caring about responsibilities.</p>\
+           <p>A dog barked at a courier who didn't know any better. The courier waited\
+           impatiently at the drop off point until the delivery window closed.</p>\
+           <p>The rain grew stronger and the runner never made it in time.</p>",
     choices: [],
     links: []
   },
   
   "01000" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p>\"Hey!\" a runner yelled at an approaching courier. \"Grab that dog!\"</p>\
+           <p>The courier kept both hands on the handlebar while weaving through the\
+           construction rubble, and the dog easily dodged.</p>\
+           <p>There wasn\'t much to do about it.</p>",
     choices: [],
     links: []
   },
   
   "01001" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier, distracted by a pending delivery job, almost hit a dog\
+           running up the sidewalk. </p>\
+           <p>The dog\'s name was Roller, and he almost managed to get out of the\
+           courier\'s reach.</p>\
+           <p>\"Hey, nice grab!\" said a passing runner who was missing a shoe. The\
+           shoe happened to be in Roller\'s mouth.</p>",
     choices: [],
     links: []
   },
   
   "01010" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A runner with a missing shoe limped down the block, and waved at a passing\
+           courier.</p>\
+           <p>\"Nice rack! Gimme a lift for a dollar?\"</p>\
+           <p>The courier grins and flips off the runner simultaneously. There\
+           wasn't enough time left on the clock to stop and banter with everyone\
+           who made stupid comments.</p>",
     choices: [],
     links: []
   },
   
   "01011" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier worried about the time while making a lot of bad pathfinding\
+           decisions. There was a package to deliver, and the delivery window was\
+           closing.</p>\
+           <p>\"Hey, dickwheels, watch it!\" scolded a runner who limped down the block\
+           with one shoe.</p>\
+           <p>The courier considered less stressful job options.</p>",
     choices: [],
     links: []
   },
   
   "01100" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, and everyone on the ground\
+           breathed a simultaneous sigh of relief.</p>\
+           <p>A courier was late for a delivery, but so was the recipient, who was a\
+           runner that lost two shoes to a passing dog.</p>",
     choices: [],
     links: []
   },
   
   "01101" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, and everyone on the ground\
+           breathed a simultaneous sigh of relief.</p>\
+           <p>A courier was late for a delivery, but so was the recipient, who was a\
+           runner that lost two shoes to a passing dog.</p>\
+           <p>The rain eased up overnight.</p>",
     choices: [],
     links: []
   },
   
   "01110" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, but the clouds showed no\
+           sign of letting up. </p>\
+           <p>A courier carried an important package along the most direct route,\
+           but no one was there to receive it.</p>\
+           <p>The recipient went out for a run earlier in the day and lost both\
+           shoes to a passing dog, then went home and forgot all about the package.</p>\
+           <p>The rain continued.</p>",
     choices: [],
     links: []
   },
   
   "01111" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, but the clouds showed no\
+           sign of letting up. </p>\
+           <p>A courier carried an important package along the most direct route,\
+           but no one was there to receive it.</p>\
+           <p>The recipient went out for a run earlier in the day and lost both\
+           shoes to a passing dog, then went home and forgot all about the package.</p>\
+           <p>The rain continued.</p>",
     choices: [],
     links: []
   },
   
   "10000" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A runner moved across the world with blissful abandon, disregarding any\
+           responsibilities. </p>\
+           <p>A courier was meant to deliver a package, but despite having reached\
+           the drop-off on time, the recipient never showed up.</p>\
+           <p>The rain grew stronger.</p>",
     choices: [],
     links: []
   },
   
   "10001" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier was meant to deliver a package, but despite having reached\
+           the drop-off on time, the recipient never showed up.</p>\
+           <p>A runner moved across the world with blissful abandon, disregarding any\
+           responsibilities. </p>\
+           <p>The rain grew stronger.</p>",
     choices: [],
     links: []
   },
   
   "10010" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> A courier sprinted desperately to reach the drop-off location on\
+           time.</p>\
+           <p>The recipient had gone out for a run and lost track of the days, but turned a\
+           corner and met the courier at the last possible moment.</p>\
+           <p>The thirty-ninth  day of rain came to a close, and the clouds tapered off\
+           overnight.</p>",
     choices: [],
     links: []
   },
   
   "10011" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p> The thirty-ninth day of rain came to a close, but the clouds showed no\
+           sign of letting up.</p>\
+           <p>Despite the courier making best attempts to reach the drop off point on time,\
+           the recipient never arrived during the delivery window.</p>\
+           <p>The recipient went out for a run earlier in the day and didn't bother\
+           keeping track of the time.</p>",
     choices: [],
     links: []
   },

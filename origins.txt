@@ -57,6 +57,9 @@ plans for his day. Suspecting the jogger of unkind intentions, he
 danced across the street, through some bushes, and disappeared into the
 neighborhood.
 
+In the following days, the woman put up 'MISSING DOG' signs all over the
+neighborhood.
+
 ---
 
 00011
@@ -251,6 +254,7 @@ A runner moved across the world with blissful abandon, disregarding any
 responsibilities. 
 
 The rain grew stronger.
+
 ---
 
 10010
