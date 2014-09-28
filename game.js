@@ -282,13 +282,26 @@ var AliceStory = {
   },
   
   "00000" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p>\"I lost my dog,\" a woman said to a passing cyclist, who seemed intent to\
+ignore her at first. \"Have you seen Roller?\"</p>\
+           <p>The cyclist, impatient with a delivery job, only gave her a helpless shrug.</p>\
+           <p>Roller had escaped not too long ago, and made friends with a quiet jogger a\
+           few streets over. The jogger led him unknowingly towards the meeting between\
+           the woman and the cyclist.</p>",
     choices: [],
     links: []
   },
   
   "00001" :
-  { text: "<p>Ending dummy text</p>",
+  { text: "<p>\"Hey!\" a woman shouted at a passing cyclist, who blew by without a care.\
+           All she wanted was an extra set of eyes to look for her dog.</p>\
+           <p>The dog\'s name was Roller, and he had escaped not too long ago and made\
+           friends with a quiet jogger a few streets over. The jogger was willing to\
+           follow the dog wherever he went.</p>\
+           <p>After a few blocks of running together, Roller left his running\
+           buddy and went off to find another.</p>\
+           <p>In the following days, the woman put up 'MISSING DOG' signs all over the\
+           neighborhood.</p>",
     choices: [],
     links: []
   },
