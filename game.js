@@ -136,26 +136,6 @@ var AliceStory = {
     links: ["a_1110", "a_1111"]
   },
 
-  "a_0000" :
-  {
-    text: "<p> You don't know what that woman is up to, but you narrowly manage to avoid\
-hitting her as you blow through the intersection. She's shouting something\
-at you, but her words are buried by the rain hitting your helmet.</p>",
-    choices: ["Swing back around and see what's wrong.",
-              "Never mind."],
-    links: ["00000", "00001"],
-  },
-  
-  "a_0001" :
-  {
-    text: "<p> In her hand is a folded up dog leash, and the woman looks relieved as you\
-pull up next to her. She gestures down South Negley Avenue, as if she's\
-expecting you to turn.</p>",
-    choices: ["Abandon your job and go look for her dog.",
-              "Shake your head in apology and pedal on."],
-    links: ["00010", "00011"],
-  },
-  
   "a_0010" :
   {
     text: "<p>The dog keeps pace with you with a loping gait, its tongue hanging out of a\
