@@ -415,7 +415,7 @@ var BobStory =
 
   "z_01" :
   { text: "<p>You can't deal with the rock grinding into your heel anymore, so you stop and take off your shoe so you can dump it out.</p><p>Before you get your shoe back on, a dog comes crashing out of the bushes, yanks your shoe out of your hands, and sprints off.</p>",
-    choices: ["Chase after it, one-shoed.", "Take off your other shoe and throw it"],
+    choices: ["Chase after it, one-shoed.", "Take off your other shoe and throw it."],
     links: ["z_010", "z_011"]
   },
 
@@ -482,16 +482,79 @@ var BobStory =
     links: ["z_0101", "z_0100"]
   },
 
-  // XXX stopped here.
   "z_011":
   {
+    text: "<p>You quickly pull off your remaining shoe and sprint a few steps after the\
+          dog, then fling it in the hopes that the dog will be distracted enough to\
+          drop the one it has. Your shoe-jectile smacks the dog soundly on the\
+          rump.</p><p>\
+          The dog spins around in surprise, then manages to get both shoes into its\
+          mouth and starts trotting towards Wilkins Avenue.</p>",
+    choices: ["You don't have much more to lose.", "Curse at the sky."],
+    links: ["z_0110", "z_0111"]
   },
 
   "z_100":
   {
+    text: "<p>You welcome the splash of water over you; you've been drenched since you\
+          stepped out of the house, so it's not a big deal. If anything, it's helping\
+          you stay cool.</p><p>\
+          A thought occurs to you. What day is it again?</p>",
+    choices: ["The twenty-fourth.", "The thirty-ninth."],
+    links: ["z_1000", "z_1001"]
   },
 
   "z_1000":
+  {
+    text: "<p>It's hard to keep track of the days sometimes, because all you ever do is run.\
+          Sometimes, you wonder if there's something else you're supposed to do, but\
+          today, you just turn yor face towards the falling raindrops, let yourself\
+          get drenched, and keep running.</p><p>\
+          It feels so good.</p>",
+    choices: ["Run.", "Run."],
+    links: ["10000", "10001"]
+  },
+
+  "z_1001":
+  {
+    text: "<p>That's right, you needed to pick up a package today. You glance at the\
+          steely-grey sky, water droplets stinging your eyes for a moment, as you judge\
+          what time it is.</p>",
+    choices: ["Pick up the pace; you might be late.", "You'll be okay."],
+    links: ["10010", "10011"]
+  },
+
+  "z_101":
+  { text : "<p>It seems like no matter how far from the road you run, the road spray\
+          still reaches you. Times like these make you wish it would stop raining\
+          once in a while.</p><p>\
+          You reach Shady Avenue before long, and hang a right since it looks like the\
+          road is a little cleaner.</p>",
+    choices: ["This is getting aggravating, so you might as well go home.",
+              "You're determined to get a good run out of this."],
+    links: ["z_1010", "z_1011"]
+  },
+
+  "z_110":
+  {
+    text: "<p>You've got this. Your soggy sneakers dig into the pavement, and you dash\
+          across the street before any of the cars get moving. The hill grows in front\
+          of you, reaching up towards the grey sky.</p>",
+    choices: ["Push.", "Float."],
+    links: ["z_1100", "z_1101"]
+  },
+
+  "z_111":
+  {
+    text: "<p>You'd rather not risk hitting the light as it flips over. You become\
+          more aware of the squishing in your socks as you slow to a stop.</p><p>\
+          Do you still want to try for the hill?</p>",
+    choices: ["Yes.", "No."],
+    links: ["z_1110", "z_1111"]
+  },
+
+  // XXX stopped here
+  "z_0100":
   {
   },
 
