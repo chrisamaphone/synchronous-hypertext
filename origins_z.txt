@@ -1,0 +1,290 @@
+z_
+
+Your feet thud against the sidewalk, spraying a thin layer of puddle water
+against your shins. Your socks are already drenched.
+
+Northumberland Street is getting torn up for repairs on the next block; you
+can see the orange 'ROAD CLOSED' signs ahead.
+
+(z_0) But you figure the sidewalk is still clear.
+(z_1) Forget it, just hang a right on South Negley Avenue.
+
+---
+
+z_0
+
+You skirt around the barricades for the road and stay on the sidewalk. No one
+calls out to stop you, so you just keep going.
+
+Some gravel manages to work its way into your sock as you jog over the uneven
+ground.
+
+(z_00) It's not a big deal.
+(z_01) That's really annoying.
+
+---
+
+z_1
+
+You don't want to take your chances with the DPW today, even if it means a
+spontaneous hill workout.
+
+In fact, you can see the Snegley hill looming a block ahead of you.
+
+(z_10) Actually, never mind; turn right on Wilkins Avenue instead.
+(z_01) Tell your legs to shut up and sprint for it.
+
+---
+
+z_00
+
+The worst that'll happen is a blister, and you know you can deal with those.
+Your stride suffers a little, though, since every step sends a slight jarring
+of pain into your foot.
+
+A dog suddenly trots up next to you. It doesn't seem to be with anyone, but it
+looks friendly.
+
+(z_000) Stop and check out its tags.
+(z_001) Ignore it and keep moving.
+
+---
+
+z_01
+
+You can't deal with the rock grinding into your heel anymore, so you stop and
+take off your shoe so you can dump it out.
+
+Before you get your shoe back on, a dog comes crashing out of the bushes,
+yanks your shoe out of your hands, and sprints off.
+
+(z_010) Chase after it, one-shoed.
+(z_011) Take off your other shoe and throw it.
+
+---
+
+z_10
+
+You'll save the hill for another day, and double back down Wilkins.
+
+The traffic on Wilkins throws a fine spray of water over you.
+
+(z_100) It's refreshing.
+(z_101) It's irritating.
+
+---
+
+z_11
+
+Your breathing deepens as you start getting ready for the hill, and you let
+your stride open up a bit so you can hit the base of it and go.
+
+The traffic light turns yellow.
+
+(z_110) You can make it.
+(z_111) You slow down.
+
+---
+
+z_000
+
+The dog hops sideways as you reach for its tag; this is a fun game that it's
+obviously played before. You catch a glimpse of the wet metal on a bright
+green collar, but not much else.
+
+It moves a few steps in the direction you were running anyway, then cocks its
+head back at you.
+
+(z_0000) Go for a jog with the dog because it'll be fun.
+(z_0001) Go for a jog with the dog and hope for another chance to grab its
+collar.
+
+---
+
+z_001
+
+All the dog seems to want is a running buddy, but without your
+acknowledgement, it peels away and trots off in the opposite direction.
+What a strange omen. What day it it again?
+
+
+(z_0010) The twenty-fourth.
+(z_0011) The thirty-ninth.
+
+---
+
+z_0010
+
+It's hard to keep track of the days sometimes, because all you ever do is run.
+Sometimes, you wonder if there's something else you're supposed to do, but
+today, you just turn yor face towards the falling raindrops, let yourself
+get drenched, and keep running.
+
+(z_00100) Run.
+(z_00101) Run.
+
+---
+
+z_0011
+
+That's right, you needed to pick up a package today. You glance at the
+steely-grey sky, water droplets stinging your eyes for a moment, as you judge
+what time it is. 
+
+(z_00110) Run back the way you came.
+(z_00111) Run back the scenic way.
+
+---
+
+z_010
+
+You run awkwardly at an uneven gait, alternating between slapping thek
+pavement with rubber and sock. The dog runs back the way you came. 
+
+You have no choice but to follow if you want your shoe back.
+
+(z_0100) Sprint harder.
+(z_0101) Let the dog go.
+
+---
+
+z_011
+
+You quickly pull off your remaining shoe and sprint a few steps after the
+dog, then fling it in the hopes that the dog will be distracted enough to
+drop the one it has. Your shoe-jectile smacks the dog soundly on the
+rump.
+
+The dog spins around in surprise, then manages to get both shoes into its
+mouth and starts trotting towards Wilkins Avenue.
+
+(z_0110) You don't have much more to lose.
+(z_0111) Curse at the sky.
+
+---
+
+z_100
+
+You welcome the splash of water over you; you've been drenched since you
+stepped out of the house, so it's not a big deal. If anything, it's helping
+you stay cool.
+
+A thought occurs to you. What day is it again?
+
+(z_1000) The twenty-fourth. 
+(z_1001) The thirty-ninth.
+
+---
+
+z_1000
+
+
+It's hard to keep track of the days sometimes, because all you ever do is run.
+Sometimes, you wonder if there's something else you're supposed to do, but
+today, you just turn yor face towards the falling raindrops, let yourself
+get drenched, and keep running.
+
+It feels so good.
+
+(10000) Run.
+(10001) Run.
+
+---
+
+z_1001
+
+That's right, you needed to pick up a package today. You glance at the
+steely-grey sky, water droplets stinging your eyes for a moment, as you judge
+what time it is. 
+
+(10010) Pick up the pace; you might be late.
+(10011) You'll be okay.
+
+---
+
+z_101
+
+It seems like no matter how far from the road you run, the road spray
+still reaches you. Times like these make you wish it would stop raining
+once in a while. 
+
+You reach Shady Avenue before long, and hang a right since it looks like the
+road is a little cleaner.
+
+(z_1010) This is getting aggravating, so you might as well go home.
+(z_1011) You're determined to get a good run out of this.
+
+---
+
+z_110
+
+You've got this. Your soggy sneakers dig into the pavement, and you dash
+across the street before any of the cars get moving. The hill grows in front
+of you, reaching up towards the grey sky.
+
+(z_1100) Push.
+(z_1101) Float.
+
+---
+
+z_111
+
+You'd rather not risk hitting the light as it flips over. You become
+more aware of the squishing in your socks as you slow to a stop. 
+
+Do you still want to try for the hill?
+
+(z_1110) No.
+(z_1111) Yes.
+
+---
+
+z_0100
+
+You splash through puddles after the dog as it waves your shoe at you in a
+taunt. It's almost as if the dog is moderating its pace to stay just out of
+your reach.
+
+Up ahead, you see a cyclist coming up the sidewalk.
+
+(01000) Yell at the cyclist to grab the dog.
+(01001) Don't bother them; this is your problem.
+
+---
+
+z_0101
+
+It's hopeless; that dog is way faster than you, especially with only one shoe.
+You slow to a walk and let the dog peel off, and resign yourself to trudging
+home.
+
+As you reach Shady Avenue, you're almost clipped by a courier flying by.
+
+(01010) Jokingly ask for a ride.
+(01011) Yell something rude.
+
+---
+
+z_1010
+
+You're done with this, so you slog your soggy self back towards home.
+You've got other things to get to today, anyway.
+
+(10100) Like meeting a courier for a package delivery.
+(10101) Like taking a long hot shower and finding dry clothes.
+
+---
+
+z_1011
+
+Despite everything, you maintain steady resolve to push through and keep
+running. 
+
+As you cross Shady Avenue, you're almost clipped by a courier flying by.
+
+(10110) Jokingly ask for a ride.
+(10111) Yell something rude.
+
+---
+
+

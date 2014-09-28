@@ -1,0 +1,308 @@
+a_
+
+The exhaust from the 67 bus is hot against your side while you're standing at
+a red light for Beechwood Boulevard, and you wonder why you even took this
+route.
+
+The light for Beechwood turned yellow, and cross-traffic is about to stop.
+
+(a_0) Anticipate your green light and blow through the moment you have a gap.
+(a_1) Wait for the 67 to get ahead of you before you fall in behind it.
+
+---
+
+a_0
+
+You drive down into the pedals and peel out into the intersection before the
+bus has a chance to get rolling. Wilkins Avenue is uphill for the next block,
+but you can't stand eating exhaust anymore.
+
+The raindrops grow fatter and break against your goggles.
+
+(a_00) Squint between the drops and keep moving.
+(a_01) Give them a quick wipe.
+
+---
+a_1
+
+The 67 starts moving with a roar, and you count to five before you click into
+your pedals and start up Wilkins Avenue behind it.
+
+Now the exhaust is hot and in your face.
+
+(a_10) Swing a left onto Denniston Street to get out of the wake.
+(a_11) Fall further back so you have breathing room.
+
+---
+
+a_00
+
+You can still sort of see the road, but you're practically hitting every
+pothole on the way to your package drop.
+
+The rumbling of the 67 bears down on you.
+
+(a_000) Pedal faster.
+(a_001) Take your next left so you can catch a quick break.
+
+---
+
+a_01
+
+You run the back of your glove over your goggles; the drops clear for a
+moment, just in time for you to swerve around a pot hole.
+
+There's a handful of cars waiting for the light at Shady Avenue.
+
+(a_010) Cut left across the street and turn onto Denniston Street to avoid the
+holdup.
+(a_011) Slow to a stop and wait.
+
+---
+
+a_10
+
+You suddenly take the side street, slipping through a gap between cars you
+almost didn't see.
+
+One of those cars honks and flips you off.
+
+(a_100) Sprint down Denniston Street and hope you're not followed.
+(a_101) Pull a handful of coins out of your pocket and fling them at the car.
+
+---
+
+a_11
+
+As the bus pulls ahead, you can breathe easy again. You can't help but wonder
+if you're going to make your drop on time, though.
+
+Do you feel late?
+
+(a_110) Yes.
+(a_111) No.
+
+---
+
+a_000
+
+As you sprint down the road, the handlebars vibrate against your palms, and
+you are blinded by the rain dripping over your goggles.
+
+A woman stands in the road ahead of you, holding something in her hand and
+looking distraught.
+
+(a_0000) Swerve around her.
+(a_0001) Slow to a stop.
+
+---
+
+a_001
+
+You swing a left turn at the light for Shady Avenue, ignoring the screech of
+badly-adjusted brakes as a car narrowly avoids bashing into you. At least
+there isn't a bus riding way too close to you anymore.
+
+A dog trots at you from a side street.
+
+(a_0010) It probably wants to say hi.
+(a_0011) It's probably going to dive at your wheels.
+
+---
+
+a_0010
+
+The dog keeps pace with you with a loping gait, its tongue hanging out of a
+knowing grin. What do dogs even think they know, anyway? 
+
+You've got a package to deliver, so you can't keep staring at it forever.
+
+(00100) Give it a quick pat on the head and move on.
+(00101) Order it to stay put so it doesn't get in your way.
+
+---
+
+a_0011
+
+It's better to be cautiously pessimistic about these things, so you brace
+yourself in case the dog tries something stupid. It doesn't, though; it just
+slows down and stares at you with its head cocked in confusion.
+
+
+You've got a package to deliver, so you can't keep staring at it forever.
+
+(00110) Give it a quick pat on the head and move on.
+(00111) Order it to stay put so it doesn't get in your way.
+
+---
+
+a_010
+
+The traffic's not worth sitting through, and you've got this package
+weighing you down. It's a little out of the way, but you'd rather keep
+moving. Moving is productive. Waiting is inefficient.
+
+You beat the traffic, but up ahead, you see bright orange signs warning about
+road work.
+
+(a_0100) Those are just for cars.
+(a_0101) Maybe you better reroute again.
+
+---
+
+a_011
+
+You know that you're going to run into traffic whichever road you're on,
+so you might as well stick to your route here.  
+
+The light turns before long.
+
+(a_0110) Looks like that wasn't too bad of a wait.
+(a_0111) You're still impatient.
+
+---
+
+a_100
+
+Whoever was annoyed at you wasn't annoyed enough to chase you, so you're in
+the clear. It's a relief to not have a bus breathing down your neck, but now
+you're off-course.
+
+Up ahead, you see bright orange signs warning about road work.
+
+(a_1000) Those are just for cars.
+(a_1001) Maybe you better reroute again.
+
+---
+
+a_101
+
+You've always had a short temper when it comes to traffic, and the clatter
+of your pocket change against the back of the retreating car gives you a
+sense of satisfaction. Serves them right.
+
+Up ahead, you see bright orange signs warning about road work.
+
+(a_1010) Those are just for cars.
+(a_1011) Maybe you better reroute again.
+
+---
+
+a_110
+
+You're feeling a little anxious that you're not going to make it in time, but what can you even do about it?  
+
+(a_1100) Pedal on with conviction.
+(a_1101) Pedal on with dread.
+
+---
+
+a_111
+
+You've got plenty of time to get there, so don't sweat it. Nothing can come
+of being in a rush.
+
+As you take your time, you feel the weight of the package pulling on your
+shoulder.
+
+(a_1110) Shift it a little.
+(a_1111) Leave it where it is.
+
+---
+
+a_1000
+
+The barricade only covers the road, so you pop over the curb and roll
+along down the sidewalk. Despite the road work signs, you can't see any
+evidence that they're working today. 
+
+This is probably a decent shortcut.
+
+(10000) You'll use it again next time.
+(10001) You'll save it for a rainy day.
+
+---
+
+a_1001
+
+It's probably better if you don't get yourself stuck in an endless maze of
+roadblocks, so you hang a right on Shady Avenue and wiggle your way back
+towards Wilkins.
+
+There goes any time you thought you'd save.
+
+(10010) Maintain your optimism.
+(10011) Worry.
+
+---
+
+a_0100
+
+The barricade only covers the road, so you pop over the curb and roll
+along down the sidewalk. Despite the road work signs, you can't see any
+evidence that they're working today. 
+
+This is probably a decent shortcut.
+
+(01000) You'll use it again next time.
+(01001) You'll save it for a rainy day.
+
+---
+
+a_1010
+
+The barricade only covers the road, so you pop over the curb and roll
+along down the sidewalk. Despite the road work signs, you can't see any
+evidence that they're working today. 
+
+This is probably a decent shortcut.
+
+(10100) You'll use it again next time.
+(10101) You'll save it for a rainy day.
+
+---
+
+a_0101
+
+It's probably better if you don't get yourself stuck in an endless maze of
+roadblocks, so you hang a right on Shady Avenue and wiggle your way back
+towards Wilkins.
+
+There goes any time you thought you'd save.
+
+(01010) Maintain your optimism.
+(01011) Worry.
+
+---
+
+a_1011
+
+It's probably better if you don't get yourself stuck in an endless maze of
+roadblocks, so you hang a right on Shady Avenue and wiggle your way back
+towards Wilkins.
+
+There goes any time you thought you'd save.
+
+(10110) Maintain your optimism.
+(10111) Worry.
+
+---
+
+a_0000
+
+You don't know what that woman is up to, but you narrowly manage to avoid
+hitting her as you blow through the intersection. She's shouting something
+at you, but her words are buried by the rain hitting your helmet.
+
+(00000) Swing back around and see what's wrong.
+(00001) Never mind.
+
+---
+
+a_0001
+
+In her hand is a folded up dog leash, and the woman looks relieved as you
+pull up next to her. She gestures down South Negley Avenue, as if she's
+expecting you to turn.
+
+

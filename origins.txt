@@ -1,154 +1,138 @@
+0 
+
 It's the thirty-ninth day of the rainy season.
 
 Right now,
 
-(??) the package feels heavy, but you keep it balanced against your left hip.
-(??) you finish tightening your laces while waiting for the light to change.
+(a_) the package feels heavy, but you keep it balanced against your left hip.
+(z_) you finish tightening your laces while waiting for the light to change.
 
 ---
 
-0??: The exhaust from the 67 bus is hot against your side while you're standing
-at a red light for Beechwood Boulevard, and you wonder why you even took this
-route.
-
-The light for Beechwood turned yellow, and cross-traffic is about to stop.
-
-(A) Anticipate your green light and blow through the moment you have a gap.
-(B) Wait for the 67 to get ahead of you before you fall in behind it.
+00000
 
 ---
 
-1??A: You drive down into the pedals and peel out into the intersection before
-the bus has a chance to get rolling. Wilkins Avenue is uphill for the next
-block, but you can't stand eating exhaust anymore.
-
-The raindrops grow fatter and break against your goggles.
-
-(A) Squint between the drops and keep moving.
-(B) Give them a quick wipe.
+00001
 
 ---
 
-1??B: The 67 starts moving with a roar, and you count to five before you click
-into your pedals and start up Wilkins Avenue behind it.
-
-Now the exhaust is hot and in your face.
-
-(A) Swing a left onto Denniston Street to get out of the wake.
-(B) Fall further back so you have breathing room.
+00010
 
 ---
 
-2??AA: You can still sort of see the road, but you're practically hitting every
-pothole on the way to your package drop.
-
-The rumbling of the 67 bears down on you.
-
-(A) Pedal faster.
-(B) Take your next left so you can catch a quick break.
+00011
 
 ---
 
-2??AB: You run the back of your glove over your goggles; the drops clear for a
-moment, just in time for you to swerve around a pot hole.
-
-There's a handful of cars waiting for the light at Shady Avenue.
-
-(A) Cut left across the street and turn onto Denniston Street to avoid the holdup.
-(B) Slow to a stop and wait.
+00100
 
 ---
 
-2??BA: You suddenly take the side street, slipping through a gap between cars
-you almost didn't see.
-
-One of those cars honks and flips you off.
-
-(A) Sprint down Denniston Street and hope you're not followed.
-(B) Pull a handful of coins out of your pocket and fling them at the car.
+00101
 
 ---
 
-2??BB: As the bus pulls ahead, you can breathe easy again. You can't help but
-wonder if you're going to make your drop on time, though.
-
-Do you feel late?
-
-(A) Yes.
-(B) No.
+00110
 
 ---
 
-0??: Your feet thud against the sidewalk, spraying a thin layer of puddle water
-against your shins. Your socks are already drenched.
-
-Northumberland Street is getting torn up for repairs on the next block; you can
-see the orange 'ROAD CLOSED' signs ahead.
-
-(A) But you figure the sidewalk is still clear.
-(B) Forget it, just hang a right on South Negley Avenue.
+00111
 
 ---
 
-1??A: You skirt around the barricades for the road and stay on the sidewalk. No
-one calls out to stop you, so you just keep going.
-
-Some gravel manages to work its way into your sock as you jog over the uneven
-ground.
-
-(A) It's not a big deal.
-(B) That's really annoying.
+01000
 
 ---
 
-1??B: You don't want to take your chances with the DPW today, even if it means a
-spontaneous hill workout.
-
-In fact, you can see the Snegley hill looming a block ahead of you.
-
-(A) Actually, never mind; turn right on Wilkins Avenue instead.
-(B) Tell your legs to shut up and sprint for it.
+01001
 
 ---
 
-2??AA: The worst that'll happen is a blister, and you know you can deal with
-those. Your stride suffers a little, though, since every step sends a slight
-jarring of pain into your foot.
-
-A dog suddenly trots up next to you. It doesn't seem to be with anyone, but it
-looks friendly.
-
-(A) Stop and check out its tags.
-(B) Ignore it and keep moving.
+01010
 
 ---
 
-2??AB: You can't deal with the rock grinding into your heel anymore, so you stop
-and take off your shoe so you can dump it out.
-
-Before you get your shoe back on, a dog comes crashing out of the bushes, yanks
-your shoe out of your hands, and sprints off.
-
-(A) Chase after it, one-shoed.
-(B) Take off your other shoe and throw it.
+01011
 
 ---
 
-2??BA: You'll save the hill for another day, and double back down Wilkins.
-
-The traffic on Wilkins throws a fine spray of water over you.
-
-(A) It's refreshing.
-(B) It's aggravating.
+01100
 
 ---
 
-2??BB: Your breathing deepens as you start getting ready for the hill, and you
-let your stride open up a bit so you can hit the base of it and go.
+01101
 
-The traffic light turns yellow.
+---
 
-(A) You can make it.
-(B) You slow down.
+01110
+
+---
+
+01111
+
+---
+
+10000
+
+---
+
+10001
+
+---
+
+10010
+
+---
+
+10011
+
+---
+
+10100
+
+---
+
+10101
+
+---
+
+10110
+
+---
+
+10111
+
+---
+
+11000
+
+---
+
+11001
+
+---
+
+11010
+
+---
+
+11011
+
+---
+
+11100
+
+---
+
+11101
+
+---
+
+11110
+
+---
+
+11111
 
 ---
