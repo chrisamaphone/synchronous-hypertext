@@ -11,147 +11,432 @@ Right now,
 
 00000
 
-In this ending, the runner plays with a dog and the courier goes looking
-for the dog.
+"I lost my dog," a woman said to a passing cyclist, who seemed intent to
+ignore her at first. "Have you seen Roller?"
+
+The cyclist, impatient with a delivery job, only gave her a helpless shrug.  
+
+Roller had escaped not too long ago, and made friends with a quiet jogger a
+few streets over. The jogger led him unknowingly towards the meeting between
+the woman and the cyclist.
+
+The four converged.
 
 ---
 
 00001
 
-In this ending, the courier ignores the woman with the lost dog whil the
-runner plays with it.
+"Hey!" a woman shouted at a passing cyclist, who blew by without a care.
+All she wanted was an extra set of eyes to look for her dog.
+
+The dog's name was Roller, and he had escaped not too long ago and made
+friends with a quiet jogger a few streets over. The jogger was willing to
+follow the dog wherever he went. 
+
+After a few blocks of running together, Roller left his running
+buddy and went off to find another.
+
+In the following days, the woman put up 'MISSING DOG' signs all over the
+neighborhoood.
 
 ---
 
 00010
 
-The courier looks for the dog. The runner climbs a tree (actually not really
-I'm just joking.)
+"His name is Roller," a woman said to a kind cyclist who stopped to help.
+"He broke off his leash and took off."
+
+"How long ago was this?" the cyclist asked, while dismounting. 
+
+It wasn't too long ago, and Roller had in fact met a jogger a few
+streets over. "Sit!" the jogger said optimistically, while trying to
+figure out how to return him to his owner.
+
+Roller wasn't very good at following directions, or he just had his own
+plans for his day. Suspecting the jogger of unkind intentions, he
+danced across the street, through some bushes, and disappeared into the
+neighborhood.
 
 ---
 
 00011
 
-On this page, we see a little girl giggling at a hippopotamus.
+"Hey!" a woman shouted at a passing cyclist, who blew by without a care.
+All she wanted was an extra set of eyes to look for her dog.
+
+The dog's name was Roller, and he had escaped not too long ago and made
+friends with a quiet jogger a few streets over. They continued running
+together while the jogger hoped to pass someone who might have a phone.
+
+Before long, though, Roller and the jogger ended up back where the woman
+was standing around ineffectually. The three of them converged.
 
 ---
 
 00100
 
-Nu sculon heriagn heofon rices weard meotodes meahte ond his modgethanc
-weorc wulder faeder swa he wundra yawes.
+A courier waited around at the designaed drop-off point, after
+getting a strange feeling that sometimes animals might know more
+than they let on.
+
+The rain grew stronger as the seconds ticked away.
+
+After the delivery window closed, the courier shrugged and went back to
+headquarters.
 
 ---
 
 00101
 
-"Jump!" said the wizard, and I had little choice but to oblige, for his
-command drove deep into my skull and grasped the endings of my spine.
+A runner moved across the world with blissful abanddon, disregarding any
+responsibilities. 
+
+The rain grew stronger.
+
+A dog barked at a courier who didn't know any better. The courier waited
+impatiently at the drop off point until the delivery window closed.
 
 ---
 
 00110
 
-We can always fly to the stars when nothing else works for us.
+A courier waited around at the designaed drop-off point, after
+getting a strange feeling that sometimes animals might know more
+than they let on.
+
+After waiting at the dropoff point for almost the entire delivery
+window, a runner comes screeching around the corner.
+
+"Sorry, I'm late."
+
+"Not yet; you have eighty-three seconds to spare."
+
+The courier passes the package to the runner.
+
+Later that night, the rain stopped.
 
 ---
 
 00111
 
+A runner moved across the world with a casual lack of caring about responsibilities.
+
+A dog barked at a courier who didn't know any better. The courier waited
+impatiently at the drop off point until the delivery window closed.
+
+The rain grew stronger and the runner never made it in time.
+
 ---
 
 01000
+
+"Hey!" a runner yelled at an approaching courier. "Grab that dog!"
+
+The courier kept both hands on the handlebar while weaving through the
+construction rubble, and the dog easily dodged.
+
+There wasn't much to do about it.
 
 ---
 
 01001
 
+A courier, distracted by a pending delivery job, almost hit a dog
+running up the sidewalk. 
+
+The dog's name was Roller, and he almost managed to get out of the
+courier's reach.
+
+"Hey, nice grab!" said a passing runner who was missing a shoe. The
+shoe happened to be in Roller's mouth.
+
 ---
 
 01010
+
+A runner with a missing shoe limped down the block, and waved at a passing
+courier.
+
+"Nice rack! Gimme a lift for a dollar?"
+
+The courier grins and flips off the runner simultaneously. There
+wasn't enough time left on the clock to stop and banter with everyone
+who made stupid comments.
 
 ---
 
 01011
 
+A courier worried about the time while making a lot of bad pathfinding
+decisions. There was a package to deliver, and the delivery window was
+closing.
+
+"Hey, dickwheels, watch it!" scolded a runner who limped down the block
+with one shoe.
+
+The courier considered less stressful job options.
+
 ---
 
 01100
+
+The thirty-ninth day of rain came to a close, and everyone on the ground
+breathed a simultaneous sigh of relief.
+
+A courier was late for a delivery, but so was the recipient, who was a
+runner that lost two shoes to a passing dog.
 
 ---
 
 01101
 
+The thirty-ninth day of rain came to a close, and everyone on the ground
+breathed a simultaneous sigh of relief.
+
+A courier was late for a delivery, but so was the recipient, who was a
+runner that lost two shoes to a passing dog.
+
+The rain eased up overnight.
+
 ---
 
 01110
+
+The thirty-ninth day of rain came to a close, but the clouds showed no
+sign of letting up. 
+
+A courier carried an important package along the most direct route,
+but no one was there to receive it.
+
+The recipient went out for a run earlier in the day and lost both
+shoes to a passing dog, then went home and forgot all about the package.
+
+The rain continued.
 
 ---
 
 01111
 
+The thirty-ninth day of rain came to a close, but the clouds showed no
+sign of letting up. 
+
+A courier carried an important package along the most direct route,
+but no one was there to receive it.
+
+The recipient went out for a run earlier in the day and lost both
+shoes to a passing dog, then went home and forgot all about the package.
+
+The rain continued.
+
 ---
 
 10000
+
+A runner moved across the world with blissful abanddon, disregarding any
+responsibilities. 
+
+A courier was meant to deliver a package, but despite having reached
+the drop-off on time, the recipient never showed up.
+
+The rain grew stronger.
 
 ---
 
 10001
 
+A courier was meant to deliver a package, but despite having reached
+the drop-off on time, the recipient never showed up.
+
+A runner moved across the world with blissful abanddon, disregarding any
+responsibilities. 
+
+The rain grew stronger.
 ---
 
 10010
+
+A courier sprinted desperately to reach the drop-off location on
+time.
+
+The recipient had gone out for a run and lost track o the days, but turned a
+corner and met the courier at the last possible moment.
+
+The thirty-ninth  day of rain came to a close, and the clouds tapered off
+overnight.
 
 ---
 
 10011
 
+The thirty-ninth day of rain came to a close, but the clouds showed no
+sign of letting up.
+
+Despite the courier making best attempts to reach the drop off point on time,
+the recipent never arrived during the delivery window.
+
+The recipient went out for a run earlier in the day and didn't bother
+keeping track of the time.
+
 ---
 
 10100
+
+The thirty-ninth day of rain came to a close, and everyone on the ground
+breathed a simultaneous sigh of relief.
+
+A courier meant to delliver a package, and the recipient almost
+missed the delivery window.
+
+The rain eased up overnight.
 
 ---
 
 10101
 
+The thirty-ninth day of rain came to a close, but the clouds showed no
+sign of letting up. 
+
+A courier carried an important package, but no one was there to receive
+it.
+
+The recipient went out for a run earlier in the day, but become discouraged
+because of the weather and forgot to pick up the package.
+
 ---
 
 10110
+
+A drenched and soggy runner moves along under the rain and waved at a
+passing courier.
+
+"Nice rack! Gimme a lift for a dollar?"
+
+The courier grins and flips off the runner simultaneously. There
+wasn't enough time left on the clock to stop and banter with everyone
+who made stupid comments.
 
 ---
 
 10111
 
+A courier worried about the time while making a lot of bad pathfinding
+decisions. There was a package to deliver, and the delivery window was
+closing.
+
+"Hey, dickwheels, watch it!" scolded a soggy runner who was annoyed at
+almost getting run over by the distracted courier.
+
+The courier considered less stressful job options.
+
 ---
 
 11000
+
+The thirty-ninth day of rain came to a close, and everyone on the ground
+breathed a simultaneous sigh of relief.
+
+A courier was late for a delivery, but so was the recipient, who had gone
+on a long, hard run.
+
+Somehow, they still managed to converge at the drop-off point at the
+right time.
+
+The rain eased up overnight.
 
 ---
 
 11001
 
+The thirty-ninth day of rain came to a close, and everyone on the ground
+breathed a simultaneous sigh of relief.
+
+A courier was late for a delivery, but so was the recipient, who had gone
+on a long, hard run.
+
+Somehow, they still managed to converge at the drop-off point at the
+right time.
+
+The rain eased up overnight.
+
 ---
 
 11010
+
+The thirty-ninth day of rain came to a close, but the clouds showed no
+sign of letting up. 
+
+A courier was supposed to deliver an important package, but never made
+it there on time. The recipient didn't make it either, after getting
+distracted by a long, hard run.
+
+The rain continued overnight, and waited for a chance to try again.
 
 ---
 
 11011
 
+The thirty-ninth day of rain came to a close, but the clouds showed no
+sign of letting up. 
+
+A courier was supposed to deliver an important package, but never made
+it there on time. The recipient didn't make it either, after getting
+distracted by a long, hard run.
+
+The rain continued overnight, and waited for a chance to try again.
+
 ---
 
 11100
+
+A courier carrying an important package let go of the handlebars at
+exactly the wrong moment. 
+
+The recipient of the package went out for a run earlier in the day, and
+lost track of the time.
+
+The package, the courier, and the runner converged.
 
 ---
 
 11101
 
+A courier carrying an important package let go of the handlebars at
+exactly the wrong moment. 
+
+The recipient of the package went out for a run earlier in the day, and
+lost track of the time.
+
+The package, the courier, and the runner almost collided, but at the last
+possible instant, the runner looked up and dodged. The courier
+swerved.
+
+Conclusions were drawn and the package was delivered on the spot.
+
+The rain eased up overnight.
+
 ---
 
 11110
 
+"Sorry!" a courier shouted at a runner who stood too close to a puddle.
+
+The courier sped off with an important package, but didn't realize the
+recipient was the runner.
+
+The rain continued overnight.
+
 ---
 
 11111
+
+A runner got splashed by some passing courier, who sped off with an
+important package.
+
+The runner trudged on to reach an exchange point to pick up a package.
+
+"It's you!" the runner shouted in surprise at the courier. "You're the
+dickwheel who splashed me!"
+
+The package was delivered, and the rain eased up overnight.
 
 ---
