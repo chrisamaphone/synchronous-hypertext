@@ -27,7 +27,7 @@ body {
 }
 .chosen {
   font-style: italic;
-  font-color: #f00;
+  color: #f00;
 }
 .choice {
     background-color: #000;
