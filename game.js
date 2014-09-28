@@ -1,14 +1,15 @@
 var int = Math.floor;
-var end = false;
+var mode = "not yet started";
 var rand = Math.random;
-var character = "not yet selected"
-var characters = ["Alice", "Bob"]
+var character = "not yet selected";
+var characters = ["Alice", "Bob"];
 // well, shit. things aren't parametric over this. would have to change
 // fields in records, etc.
 //var characters = ["Cyclist", "Runner"]
 
 var AliceStory = {
   start: "passageA0",
+
   "passageA0" :
   { text: "<p>The exhaust from the 67 bus is hot against your side while you're standing at a red light for Beechwood Boulevard, and you wonder why you even took this route.</p> <p>The light for Beechwood turned yellow, and cross-traffic is about to stop.</p>",
     choices: 
@@ -27,14 +28,14 @@ var AliceStory = {
   { text: "<p>You can still sort of see the road, but you're practically hitting every pothole on the way to your package drop.</p>\
           <p>The rumbling of the 67 bears down on you.</p>",
     choices: ["Pedal faster.", "Take your next left so you can catch a quick break."],
-    links: ["", ""]
+    links: ["ending0", "ending0"]
   },
 
   "passageA001" :
   { text: "<p>You run the back of your glove over your goggles; the drops clear for a moment, just in time for you to swerve around a pot hole.</p>\
           <p>There's a handful of cars waiting for the light at Shady Avenue.</p>",
     choices: [ "Cut left across the street and turn onto Denniston Street to avoid the holdup.", "Slow to a stop and wait."],
-    links: ["", ""]
+    links: ["ending0", "ending0"]
   },
 
   "passageA01" :
@@ -48,13 +49,19 @@ var AliceStory = {
           <p>One of those cars honks and flips you off.</p>",
     choices: ["Sprint down Denniston Street and hope you're not followed",
       "Pull a handful of coins out of your pocket and fling them at the car"],
-    links: ["", ""]
+    links: ["ending0", "ending0"]
   },
 
   "passageA011" :
   { text: "<p>As the bus pulls ahead, you can breathe easy again. You can't help but wonder if you're going to make your drop on time, though.</p><p>Do you feel late?</p>",
     choices: ["Yes.", "No."],
-    links: ["", ""]
+    links: ["ending0", "ending0"]
+  },
+
+  "ending0" :
+  { text: "<p>Ending 0</p>",
+    choices: [],
+    links: []
   }
 }
 
@@ -76,14 +83,14 @@ var BobStory =
 
   "passageB000" :
   { text: "<p>The worst that'll happen is a blister, and you know you can deal with those. Your stride suffers a little, though, since every step sends a slight jarring of pain into your foot.</p><p> A dog suddenly trots up next to you. It doesn't seem to be with anyone, but it looks friendly.</p>",
-    choices: [ "Stop and check out its tags", "Ignore it and keep moving"],
-    links: ["", ""]
+    choices: [ "Stop and check out its tags.", "Ignore it and keep moving."],
+    links: ["ending0", "ending0"]
   },
 
   "passageB001" :
   { text: "<p>You can't deal with the rock grinding into your heel anymore, so you stop and take off your shoe so you can dump it out.</p><p>Before you get your shoe back on, a dog comes crashing out of the bushes, yanks your shoe out of your hands, and sprints off.</p>",
     choices: ["Chase after it, one-shoed.", "Take off your other shoe and throw it"],
-    links: ["", ""]
+    links: ["ending0", "ending0"]
   },
 
   "passageB01":
@@ -97,14 +104,20 @@ var BobStory =
   { text: "<p>You'll save the hill for another day, and double back down Wilkins.</p><p>\
         The traffic on Wilkins throws a fine spray of water over you.</p>",
     choices: [ "It's refreshing.", "It's aggravating."],
-    links: ["", ""]
+    links: ["ending0", "ending0"]
   },
 
   "passageB011":
   { text: "<p>Your breathing deepens as you start getting ready for the hill, and you let your stride open up a bit so you can hit the base of it and go.</p><p>\
         The traffic light turns yellow.</p>",
     choices: [ "You can make it.", "You slow down."],
-    links: ["", ""]
+    links: ["ending0", "ending0"]
+  },
+
+  "ending0" :
+  { text: "Ending 0",
+    choices: [],
+    links: []
   }
 }; //end BobStory
 
@@ -118,16 +131,35 @@ var story = {"Alice":AliceStory, "Bob":BobStory};
 var cursors = {}; //{"Alice":AliceStory["passageA0"], "Bob":BobStory["passageB0"]};
 
 function render() {
+  // header text
   $("#turns").text(turns + ", Character: " + character);
-  if (end) {
+
+  if (mode == "done") {
     end_game();
+  } 
+  else if (mode == "not yet started") {
+  // do nothing
+  }
+  else if (mode == "start") {   
+    passage = cursors[character];
+    $("#choice"+character+"A").text(passage.choices[0]);
+    $("#choice"+character+"B").text(passage.choices[1]);
+    mode = "playing";
+  } 
+  else {
+  // choice fields for the *selected* character to set up the next choice.
+    choices = cursors[character]["choices"];
+    $("#choice"+character+"A").text(choices[0]);
+    $("#choice"+character+"B").text(choices[1]);
   }
 }
 
 // XXX implement restart. in character column?
 function end_game() {
- // $("#restartBtn").show();
  console.log("game ended");
+ $("#choice"+character+"A").html("");
+ $("#choice"+character+"B").html("");
+ // $("#restartBtn").show();
 }
 
 function init_game() {
@@ -139,7 +171,6 @@ function init_game() {
   $("#intro").hide();
   $("#game").show();
   turns = 0;
-  end = false;
 
   render();
 }
@@ -162,29 +193,33 @@ function choose(choice) {
   for (var ch in cursors) {
     // get the plaintext of the current prefix.
     prefix = $("#prefix"+ch).html(); // + "<br><br>";
-    // add the text of the selected choice.
-    prefix += cursors[ch].choices[choice]; // + "<br><br>";
 
-    passage_name = cursors[ch].links[choice];
     // check if there is a next scene.
-    if (passage_name !== "") {
+    if (cursors[ch].choices.length != 0) {
+      // add the text of the selected choice.
+      prefix += cursors[ch].choices[choice]; // + "<br><br>";
+
+      passage_name = cursors[ch].links[choice];
       // update the cursor
       console.log("updating "+ch+"'s cursor to "+passage_name+"\n");
       cursors[ch] = story[ch][passage_name];
       // add the text of the next scene.
       prefix += cursors[ch].text;// + "<br><br>";
+
+      // update the prefix document element.
+      // (XXX ideally this would be in render, but then render would need to
+      // loop additionally over the characters...)
+      $("#prefix"+ch).html(prefix);
+
+      // extra check to fix off by 1
+      if (cursors[ch].choices.length == 0) {
+        mode = "done";
+      }
     } else {
-      end = true;
+      mode = "done";
     }
 
-    // update the prefix document element.
-    $("#prefix"+ch).html(prefix);
   } // end loop over characters  
-
-  // update the HTML choice fields for the *selected* character to set up the next choice.
-  choices = cursors[character]["choices"];
-  $("#choice"+character+"A").text(choices[0]);
-  $("#choice"+character+"B").text(choices[1]);
 
   turns++;
   render();
@@ -211,11 +246,8 @@ function pickCharacter(c) {
     prefix += cursors[ch].text;
     $("#prefix"+ch).html(prefix);
   }
-  // update the choice fields to set up the next choice.
-  passage = cursors[character];
-  $("#choice"+character+"A").text(passage.choices[0]);
-  $("#choice"+character+"B").text(passage.choices[1]);
 
+  mode = "start";
   render();
 }
 
@@ -225,9 +257,11 @@ $("#selectAlice").click(function () {pickCharacter(characters[0])});
 $("#selectBob").  click(function () {pickCharacter(characters[1])});
 
 
+/*
 $(document).mouseup(function(ev) {
   render();
 });
+*/
 
 
 $("#game").hide();
