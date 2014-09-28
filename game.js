@@ -1,4 +1,5 @@
 var int = Math.floor;
+var end = false;
 var rand = Math.random;
 var character = "not yet selected"
 var characters = ["Alice", "Bob"]
@@ -115,26 +116,31 @@ var story = {"Alice":AliceStory, "Bob":BobStory};
 // these fields will update w/whatever the *current* passage is for each
 // character.
 var cursors = {}; //{"Alice":AliceStory["passageA0"], "Bob":BobStory["passageB0"]};
-for (var ch in story) {
-  idx = story[ch].start;
-  cursors[ch] = story[ch][idx];
-}
 
 function render() {
   $("#turns").text(turns + ", Character: " + character);
+  if (end) {
+    end_game();
+  }
 }
 
-//function end_game() {
-//  render();
-//  $("#restartBtn").show();
-//  mode = "done";
-//}
+// XXX implement restart. in character column?
+function end_game() {
+ // $("#restartBtn").show();
+ console.log("game ended");
+}
 
 function init_game() {
+  // initialize cursors to the "start" field of each story
+  for (var ch in story) {
+    idx = story[ch].start;
+    cursors[ch] = story[ch][idx];
+  }
   $("#intro").hide();
   $("#game").show();
   turns = 0;
- // path = [];
+  end = false;
+
   render();
 }
 
@@ -155,18 +161,21 @@ function choose(choice) {
   console.log("choice: "+choice);
   for (var ch in cursors) {
     // get the plaintext of the current prefix.
-    prefix = $("#prefix"+ch).text(); // + "<br><br>";
+    prefix = $("#prefix"+ch).html(); // + "<br><br>";
     // add the text of the selected choice.
     prefix += cursors[ch].choices[choice]; // + "<br><br>";
-    // update the cursor
-    passage_name = cursors[ch].links[choice];
-    console.log("updating "+ch+"'s cursor to "+passage_name+"\n");
-    cursors[ch] = story[ch][passage_name];
 
-    // TODO why is text getting compressed, here?
-    
-    // add the text of the next scene.
-    prefix += cursors[ch].text;// + "<br><br>";
+    passage_name = cursors[ch].links[choice];
+    // check if there is a next scene.
+    if (passage_name !== "") {
+      // update the cursor
+      console.log("updating "+ch+"'s cursor to "+passage_name+"\n");
+      cursors[ch] = story[ch][passage_name];
+      // add the text of the next scene.
+      prefix += cursors[ch].text;// + "<br><br>";
+    } else {
+      end = true;
+    }
 
     // update the prefix document element.
     $("#prefix"+ch).html(prefix);

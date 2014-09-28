@@ -46,7 +46,7 @@ body {
 body { margin: 0px; }
 *  { 
   cursor: default; 
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 td { border: 1px solid #9ac; } 
 
