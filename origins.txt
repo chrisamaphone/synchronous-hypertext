@@ -37,7 +37,7 @@ After a few blocks of running together, Roller left his running
 buddy and went off to find another.
 
 In the following days, the woman put up 'MISSING DOG' signs all over the
-neighborhoood.
+neighborhood.
 
 ---
 
@@ -75,7 +75,7 @@ was standing around ineffectually. The three of them converged.
 
 00100
 
-A courier waited around at the designaed drop-off point, after
+A courier waited around at the designated drop-off point, after
 getting a strange feeling that sometimes animals might know more
 than they let on.
 
@@ -88,7 +88,7 @@ headquarters.
 
 00101
 
-A runner moved across the world with blissful abanddon, disregarding any
+A runner moved across the world with blissful abandon, disregarding any
 responsibilities. 
 
 The rain grew stronger.
@@ -100,11 +100,11 @@ impatiently at the drop off point until the delivery window closed.
 
 00110
 
-A courier waited around at the designaed drop-off point, after
+A courier waited around at the designated drop-off point, after
 getting a strange feeling that sometimes animals might know more
 than they let on.
 
-After waiting at the dropoff point for almost the entire delivery
+After waiting at the drop off point for almost the entire delivery
 window, a runner comes screeching around the corner.
 
 "Sorry, I'm late."
@@ -232,7 +232,7 @@ The rain continued.
 
 10000
 
-A runner moved across the world with blissful abanddon, disregarding any
+A runner moved across the world with blissful abandon, disregarding any
 responsibilities. 
 
 A courier was meant to deliver a package, but despite having reached
@@ -247,7 +247,7 @@ The rain grew stronger.
 A courier was meant to deliver a package, but despite having reached
 the drop-off on time, the recipient never showed up.
 
-A runner moved across the world with blissful abanddon, disregarding any
+A runner moved across the world with blissful abandon, disregarding any
 responsibilities. 
 
 The rain grew stronger.
@@ -272,7 +272,7 @@ The thirty-ninth day of rain came to a close, but the clouds showed no
 sign of letting up.
 
 Despite the courier making best attempts to reach the drop off point on time,
-the recipent never arrived during the delivery window.
+the recipient never arrived during the delivery window.
 
 The recipient went out for a run earlier in the day and didn't bother
 keeping track of the time.
@@ -284,7 +284,7 @@ keeping track of the time.
 The thirty-ninth day of rain came to a close, and everyone on the ground
 breathed a simultaneous sigh of relief.
 
-A courier meant to delliver a package, and the recipient almost
+A courier meant to deliver a package, and the recipient almost
 missed the delivery window.
 
 The rain eased up overnight.

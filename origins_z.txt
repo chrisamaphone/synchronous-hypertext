@@ -32,7 +32,7 @@ spontaneous hill workout.
 In fact, you can see the Snegley hill looming a block ahead of you.
 
 (z_10) Actually, never mind; turn right on Wilkins Avenue instead.
-(z_01) Tell your legs to shut up and sprint for it.
+(z_11) Tell your legs to shut up and sprint for it.
 
 ---
 
@@ -104,7 +104,7 @@ collar.
 z_001
 
 All the dog seems to want is a running buddy, but without your
-acknowledgement, it peels away and trots off in the opposite direction.
+acknowledgment, it peels away and trots off in the opposite direction.
 What a strange omen. What day it it again?
 
 
@@ -117,7 +117,7 @@ z_0010
 
 It's hard to keep track of the days sometimes, because all you ever do is run.
 Sometimes, you wonder if there's something else you're supposed to do, but
-today, you just turn yor face towards the falling raindrops, let yourself
+today, you just turn your face towards the falling raindrops, let yourself
 get drenched, and keep running.
 
 (z_00100) Run.
@@ -138,7 +138,7 @@ what time it is.
 
 z_010
 
-You run awkwardly at an uneven gait, alternating between slapping thek
+You run awkwardly at an uneven gait, alternating between slapping the
 pavement with rubber and sock. The dog runs back the way you came. 
 
 You have no choice but to follow if you want your shoe back.
@@ -181,7 +181,7 @@ z_1000
 
 It's hard to keep track of the days sometimes, because all you ever do is run.
 Sometimes, you wonder if there's something else you're supposed to do, but
-today, you just turn yor face towards the falling raindrops, let yourself
+today, you just turn your face towards the falling raindrops, let yourself
 get drenched, and keep running.
 
 It feels so good.
@@ -306,7 +306,7 @@ You pretend to slip into pace next to the dog, waiting for it to settle
 down a little. Once the dog seems content to trot along next to you, you
 snatch at its collar again. 
 
-The tag reads "ROLLER", and a phonne number in the 412 area code.
+The tag reads "ROLLER", and a phone number in the 412 area code.
 
 (00010) Tell Roller to sit.
 (00011) Keep running and look for someone with a phone.
@@ -352,7 +352,7 @@ down into the pavement.
 
 z_1101
 
-The hill is a protrustion into the sky, and the more you run, the closer to
+The hill is a protrusion into the sky, and the more you run, the closer to
 the clouds you rise. You tilt your chin up to meet the rain, and your body
 grows lighter.
 
@@ -374,7 +374,7 @@ street as soon as it changes. The hill rises ahead of you.
 z_1111
 
 You've lost your mojo, so you jog in place at the intersection while
-working out your next movee.
+working out your next move.
 
 A courier blasts through the intersection and splashes muddy rainwater
 all over you.

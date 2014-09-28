@@ -23,10 +23,17 @@
     </table>
     <table width=100% id="game">
       <tr height=90 >
-	<td colspan=3>
+	<td colspan=2>
 	  <center>
 	    <div class="toptext">
-        number of turns: <span id="turns"></span>
+              <!-- Turns: <span id="turns"></span> -->
+              <div id="title"><p>Origins</p></div>
+              <p>Story by <a href="http://modgethanc.com/" target="_blank">
+                H. Vincent Zeng</a> /
+              Code & Concept by <a
+                href="http://www.cs.cmu.edu/~cmartens/" target="_blank">
+                Chris Martens</a></p>
+                <br><br>
 	    </div>
 	    <div id="status">
 	    </div>
@@ -35,15 +42,16 @@
 	</td>
       </tr>
       <tr height=5%>
-	<td width=30% valign="top" id="char1" class="char">	
-    <span class="charname">Cyclist</span>
+	<td width=50% valign="top" id="char1" class="char">	
+    <span class="charname">Courier</span>
 	</td>
-	<td width=30% valign="top" id="char2" class="char">	
+	<td width=50% valign="top" id="char2" class="char">	
     <span class="charname">Runner</span>
 	</td>
+      <!--
 	<td width=30% valign="top" id="char3" class="char">
     <span class="charname">?</span>
-	</td>
+  </td> -->
       </tr>
 
       <tr valign="top">
@@ -56,10 +64,10 @@
       against your left hip.
     </span>
 
+    <p><div class="choice" id="choiceAliceA"></div></p>
+    <p><div class="choice" id="choiceAliceB"></div></p>
+    <a href="index.html" class="button" id="restartBtnAlice">Restart?</a>
     <br><br>
-    <div class="choice" id="choiceAliceA"></div>
-    <br><br>
-    <div class="choice" id="choiceAliceB"></div>
 
   </td>
 
@@ -71,10 +79,10 @@
       while waiting for the light to change.
     </span>
 
+    <p><div class="choice" id="choiceBobA"></div></p>
+    <p><div class="choice" id="choiceBobB"></div></p>
+    <a href="index.html" class="button" id="restartBtnBob">Restart?</a>
     <br><br>
-    <div class="choice" id="choiceBobA"></div>
-    <br><br>
-    <div class="choice" id="choiceBobB"></div>
   <td>
 
 
