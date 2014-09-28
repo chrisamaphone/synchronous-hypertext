@@ -234,8 +234,8 @@ more aware of the squishing in your socks as you slow to a stop.
 
 Do you still want to try for the hill?
 
-(z_1110) No.
-(z_1111) Yes.
+(z_1110) Yes.
+(z_1111) No.
 
 ---
 
@@ -338,3 +338,46 @@ Might as well cut your losses and head home.
 (01111) Slosh through every puddle on the way.
 
 ---
+
+z_1100
+
+The hill is a part of the earth and you are a plow driving through it. You
+keep your head low and your shoulders curled, and every step presses
+down into the pavement.
+
+(11000) You were made for this.
+(11001) You've worked hard for this.
+
+---
+
+z_1101
+
+The hill is a protrustion into the sky, and the more you run, the closer to
+the clouds you rise. You tilt your chin up to meet the rain, and your body
+grows lighter.
+
+(11010) You were made for this.
+(11011) You've worked hard for this.
+
+---
+
+z_1110
+
+You wait for the light to turn to your favor again, and bolt out into the
+street as soon as it changes. The hill rises ahead of you.
+
+(11100) Take a deep breath.
+(11101) Take a good look.
+
+---
+
+z_1111
+
+You've lost your mojo, so you jog in place at the intersection while
+working out your next movee.
+
+A courier blasts through the intersection and splashes muddy rainwater
+all over you.
+
+(11110) You're already drenched anyway.
+(11111) That's the last straw.

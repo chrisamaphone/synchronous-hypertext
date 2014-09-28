@@ -330,3 +330,44 @@ narrow, and you've committed yourself to this route.
 (01111) Ride the double-yellow lines down the middle of the road.
 
 ---
+
+a_1100
+
+There's no point in getting worked up about it, so you just grit your
+teeth and pedal onwards. If you're late for your drop, you're late; you'll
+just come up with some excuse when you get there.
+
+(11000) At least the clouds look like they might clear up.
+(11001) Enjoy spraying through some puddles.
+
+---
+
+a_1101
+
+The more the traffic gets in your way, the worse you feel, and that package
+grows into a heavy weight dragging on your shoulder. You hate being late, and
+you think about everything you could have done earlier today.
+
+(11010) This must have been inevitable.
+(11011) You could have done better.
+
+---
+
+a_1110
+
+You nudge the package with your elbow, but at the same time, a runner
+dashes into the intersection in front of you.
+
+(11100) Slam on your brakes.
+(11101) Swerve.
+
+---
+
+a_11111
+
+You can deal with the weight where it is, but it's cramping up your neck. 
+
+When you cross the next intersection, you splash some pedestrian.
+
+(11110) Shout an apology.
+(11111) Don't worry about them.
