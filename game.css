@@ -28,6 +28,7 @@ body {
 
 .choice {
     background-color: #000;
+    font-style: italic;
     color: #ef3;
     font-weight: bold;
     display: inline-block;
