@@ -47,8 +47,8 @@ var AliceStory = {
   "a_10" :
   { text: "<p>You suddenly take the side street, slipping through a gap between cars you almost didn't see.</p>\
           <p>One of those cars honks and flips you off.</p>",
-    choices: ["Sprint down Denniston Street and hope you're not followed",
-      "Pull a handful of coins out of your pocket and fling them at the car"],
+    choices: ["Sprint down Denniston Street and hope you're not followed.",
+      "Pull a handful of coins out of your pocket and fling them at the car."],
     links: ["a_100", "a_101"]
   },
 
@@ -173,7 +173,7 @@ var AliceStory = {
     text: "<p>It's probably better if you don't get yourself stuck in an endless maze of\
           roadblocks, so you hang a right on Shady Avenue and wiggle your way back\
           towards Wilkins.</p>\
-          <p>There goes any time you thought you'd save.</p>",
+          <p>There goes any time you thought you\'d save.</p>",
     choices: ["Maintain your optimism.", "Worry."],
     links: ["10010", "10011"]
   },
@@ -181,14 +181,105 @@ var AliceStory = {
   // XXX stopped here
   "a_0100" :
   {
+    text: "<p>The barricade only covers the road, so you pop over the curb and roll\
+          along down the sidewalk. Despite the road work signs, you can't see any\
+          evidence that they're working today.</p><p>\
+          This is probably a decent shortcut.</p>",
+    choices: ["You'll use it again next time.", "You'll save it for a rainy day."],
+    links: ["01000", "01001"]
   },
   
   "a_1010" :
   {
+    text:"<p>The barricade only covers the road, so you pop over the curb and roll\
+          along down the sidewalk. Despite the road work signs, you can't see any\
+          evidence that they're working today.</p><p>\
+          This is probably a decent shortcut.</p>",
+    choices: ["You'll use it again next time.", "You'll save it for a rainy day."],
+    links: ["10100", "10101"]
   },
   
-  "a_XXX" :
+  "a_0101" :
   {
+    text:"<p>It's probably better if you don't get yourself stuck in an endless maze of\
+          roadblocks, so you hang a right on Shady Avenue and wiggle your way back\
+          towards Wilkins.</p><p>\
+          There goes any time you thought you'd save.</p>",
+    choices: ["Maintain your optimism.", "Worry."],
+    links: ["01010", "01011"]
+  },
+
+  "a_1011":
+  { text:"<p>It's probably better if you don't get yourself stuck in an endless maze of\
+          roadblocks, so you hang a right on Shady Avenue and wiggle your way back\
+          towards Wilkins.</p>",
+    choices: ["Maintain your optimism.", "Worry."],
+    links: ["10110", "10111"],
+  },
+  
+  "a_0000":
+  { text:"<p>You don't know what that woman is up to, but you narrowly manage to avoid\
+          hitting her as you blow through the intersection. She's shouting something\
+          at you, but her words are buried by the rain hitting your helmet.</p>",
+    choices:["Swing back around and see what's wrong.", "Never mind."],
+    links: ["00000", "00001"],
+  },
+  
+  "a_0001":
+  { text:"<p>In her hand is a folded up dog leash, and the woman looks relieved as you\
+          pull up next to her. She gestures down South Negley Avenue, as if she's\
+          expecting you to turn.</p>",
+    choices:["Abandon your job and go look for her dog.",
+             "Shake your head in apology and pedal on."],
+    links:["00010", "00011"],
+  },
+  
+  "a_0110":
+  { text:"<p>With endless patience, you flow with the traffic. You do have a\
+          particular time to make this drop, but there's no point in worrying about\
+          things you can't control.</p>",
+    choices:[ "At least the clouds look like they might clear up.",
+              "Enjoy spraying through some puddles."],
+    links:["01100", "01101"],
+  },
+  
+  "a_0111":
+  { text:"<p>You're not happy with the pace things are moving, but Wilkins Avenue is\
+          narrow, and you've committed yourself to this route.</p>",
+    choices:[ "Hop the curb and blast down the sidewalk.",
+              "Ride the double-yellow lines down the middle of the road."],
+    links:["01110", "01111"],
+  },
+    
+  "a_1100":
+  { text:"<p>There's no point in getting worked up about it, so you just grit your\
+          teeth and pedal onward. If you're late for your drop, you're late; you\'ll\
+          just come up with some excuse when you get there.</p>",
+    choices:[ "At least the clouds look like they might clear up.",
+              "Enjoy spraying through some puddles."],
+    links:["11000", "11001"],
+  },
+
+  "a_1101":
+  { text:"<p>The more the traffic gets in your way, the worse you feel, and that package\
+          grows into a heavy weight dragging on your shoulder. You hate being late, and\
+          you think about everything you could have done earlier today.</p>",
+    choices: ["This must have been inevitable.", "You could have done better."],
+    links: ["11010", "11011"]
+  },
+  
+  "a_1110":
+  { text:"<p>You nudge the package with your elbow, but at the same time, a runner\
+          dashes into the intersection in front of you.</p>",
+    choices: ["Slam on your brakes.", "Swerve."],
+    links: ["11100", "11101"]
+  },
+  
+  "a_11111":
+  { text:"<p>You can deal with the weight where it is, but it's cramping up your neck.</p>\
+          <p>When you cross the next intersection, you splash some pedestrian.</p>",
+    choices:["Shout an apology.", "Don't worry about them."],
+    links:["11110", "11111"]
   },
   
   "00000" :
@@ -448,7 +539,7 @@ var BobStory =
   "z_001":
   {
     text: "<p>All the dog seems to want is a running buddy, but without your\
-          acknowledgement, it peels away and trots off in the opposite direction.\
+          acknowledgment, it peels away and trots off in the opposite direction.\
           What a strange omen. What day is it again?</p>",
     choices: ["The twenty-fourth.", "The thirty-ninth."],
     links: ["z_0010", "z_0011"]
@@ -458,7 +549,7 @@ var BobStory =
   {
     text: "<p>It's hard to keep track of the days sometimes, because all you ever do is run.\
           Sometimes, you wonder if there's something else you're supposed to do, but\
-          today, you just turn yor face towards the falling raindrops, let yourself\
+          today, you just turn your face towards the falling raindrops, let yourself\
           get drenched, and keep running.</p>",
     choices: ["Run.", "Run."],
     links: ["z_00100", "z_00101"]
@@ -508,7 +599,7 @@ var BobStory =
   {
     text: "<p>It's hard to keep track of the days sometimes, because all you ever do is run.\
           Sometimes, you wonder if there's something else you're supposed to do, but\
-          today, you just turn yor face towards the falling raindrops, let yourself\
+          today, you just turn your face towards the falling raindrops, let yourself\
           get drenched, and keep running.</p><p>\
           It feels so good.</p>",
     choices: ["Run.", "Run."],
@@ -553,9 +644,110 @@ var BobStory =
     links: ["z_1110", "z_1111"]
   },
 
-  // XXX stopped here
   "z_0100":
-  {
+  { text:"<p>You splash through puddles after the dog as it waves your shoe at you in a\
+          taunt. It's almost as if the dog is moderating its pace to stay just out of\
+          your reach.</p><p>\
+          Up ahead, you see a cyclist coming up the sidewalk.</p>",
+    choices: ["Yell at the cyclist to grab the dog.",
+              "Don't bother them; this is your problem."],
+    links: ["01000", "01001"]
+  },
+
+  "z_0101":
+  { text:"<p>It's hopeless; that dog is way faster than you, especially with only one shoe.\
+          You slow to a walk and let the dog peel off, and resign yourself to trudging\
+          home.</p><p>\
+          As you reach Shady Avenue, you're almost clipped by a courier flying by.</p>",
+    choices: ["Jokingly ask for a ride.", "Yell something rude."],
+    links: ["01010", "01011"]
+  },
+
+  "z_1010":
+  { text:"<p>You're done with this, so you slog your soggy self back towards home.\
+          You've got other things to get to today, anyway.</p>",
+    choices: ["Like meeting a courier for a package delivery.",
+              "Like taking a long hot shower and finding dry clothes."],
+    links: ["10100", "10101"]
+  },
+
+  "z_1011":
+  { text:"<p>Despite everything, you maintain steady resolve to push through and keep\
+          running.</p><p>\
+          As you cross Shady Avenue, you're almost clipped by a courier flying by.</p>",
+    choices: ["Jokingly ask for a ride.", "Yell something rude."],
+    links: ["10110", "10111"]
+  },
+
+  "z_0000":
+  { text:"<p>The dog makes a decent running buddy, and it keeps perfect pace with you.\
+          You're breathing in sync, striding in sync, moving across the pavement\
+          as if you had always run together.</p><p>\
+          When you reach South Negley Avenue, the dog wants to turn left.</p>",
+    choices: ["Turn right.", "Turn left."],
+    links: ["00000", "00001"]
+  },
+
+  "z_0001":
+  { text:"<p>You pretend to slip into pace next to the dog, waiting for it to settle\
+          down a little. Once the dog seems content to trot along next to you, you\
+          snatch at its collar again.</p><p>\
+          The tag reads \"ROLLER\", and a phone number in the 412 area code.</p>",
+    choices: ["Tell Roller to sit.", "Keep running and look for someone with a phone."],
+    links: ["00010", "00011"]
+  },
+
+  "z_0110":
+  { text:"<p>You can't help but laugh at yourself a little, because you're shoeless\
+          in the middle of the street in a rain storm and some dog managed to outsmart\
+          you.</p><p>\
+          Might as well cut your losses and head home.</p>",
+    choices: ["At least the clouds look like they might clear up.",
+              "Enjoy stepping through some mud puddles on your way."],
+    links: ["01100", "01101"]
+  },
+
+  "z_0111":
+  { text:"<p>What horrible luck; you raise your fist to the sky as if it was the fault of\
+          the clouds. They only respond by pouring more rain onto you. The dog is\
+          already nowhere to be seen.</p><p>\
+          Might as well cut your losses and head home.</p>",
+    choices: ["Take off your soggy socks first.",
+              "Slosh through every puddle on the way."],
+    links: ["01110", "01111"]
+  },
+  
+  "z_1100":
+  { text:"<p>The hill is a part of the earth and you are a plow driving through it. You\
+          keep your head low and your shoulders curled, and every step presses\
+          down into the pavement.</p>",
+    choices: ["You were made for this.",
+              "You've worked hard for this."],
+    links: ["11000", "11001"]
+  },
+
+  "z_1101":
+  { text:"<p>The hill is a protrusion into the sky, and the more you run, the closer to\
+          the clouds you rise. You tilt your chin up to meet the rain, and your body\
+          grows lighter.</p>",
+    choices:["You were made for this.", "You've worked hard for this."],
+    links: ["11010", "11011"]
+  },
+
+  "z_1110":
+  { text:"<p>You wait for the light to turn to your favor again, and bolt out into the\
+          street as soon as it changes. The hill rises ahead of you.</p>",
+    choices:["Take a deep breath.", "Take a good look."],
+    links: ["11100", "11101"]
+  },
+
+  "z_1111":
+  { text:"<p>You\'ve lost your mojo, so you jog in place at the intersection while\
+          working out your next move.</p><p>\
+          <p>A courier blasts through the intersection and splashes muddy rainwater\
+          all over you.</p>",
+    choices:["You\'re already drenched anyway.", "That\'s the last straw."],
+    links: ["11110", "11111"]
   },
 
   "ending0" :
