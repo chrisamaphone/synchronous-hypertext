@@ -64,7 +64,7 @@ var AliceStory = {
            you are blinded by the rain dripping over your goggles.</p>\
           <p>A woman stands in the road ahead of you, holding something in her hand and\
             looking distraught.</p>",
-    choices: ["Swerve around her", "Slow to a stop"],
+    choices: ["Swerve around her.", "Slow to a stop."],
     links: ["a_0000", "a_0001"]
   },
 
@@ -755,6 +755,14 @@ var BobStory =
     links: []
   }
 }; //end BobStory
+
+// add the same endings to Bob's Story as to Alice's.
+for (var idx in AliceStory) {
+  var first = idx.slice(0,1);
+  if (first == "0" || first == "1") {
+    BobStory[idx] = AliceStory[idx];
+  }
+}
 
 
 // this will stay constant.
