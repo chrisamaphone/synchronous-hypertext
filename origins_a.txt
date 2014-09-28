@@ -309,3 +309,24 @@ expecting you to turn.
 (00011) Shake your head in apology and pedal on.
 
 ---
+
+a_0110
+
+With endless patience, you flow with the traffic. You do have a
+particular time to make this drop, but there's no point in worrying about
+things you can't control.
+
+(01100) At least the clouds look like they might clear up.
+(01101) Enjoy spraying through some puddles.
+
+---
+
+a_0111
+
+You're not happy with the pace things are moving, but Wilkins Avenue is
+narrow, and you've committed yourself to this route.
+
+(01110) Hop the curb and blast down the sidewalk.
+(01111) Ride the double-yellow lines down the middle of the road.
+
+---

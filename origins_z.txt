@@ -289,4 +289,52 @@ As you cross Shady Avenue, you're almost clipped by a courier flying by.
 
 z_0000
 
+The dog makes a decent running buddy, and it keeps perfect pace with you.
+You're breathing in sync, striding in sync, moving across the pavement
+as if you had always run together.
 
+When you reach South Negley Avenue, the dog wants to turn left.
+
+(00000) Turn right.
+(00001) Turn left.
+
+---
+
+z_0001
+
+You pretend to slip into pace next to the dog, waiting for it to settle
+down a little. Once the dog seems content to trot along next to you, you
+snatch at its collar again. 
+
+The tag reads "ROLLER", and a phonne number in the 412 area code.
+
+(00010) Tell Roller to sit.
+(00011) Keep running and look for someone with a phone.
+
+---
+
+z_0110
+
+You can't help but laugh at yourself a little, because you're shoeless
+in the middle of the street in a rain storm and some dog managed to outsmart
+you. 
+
+Might as well cut your losses and head home.
+
+(01100) At least the clouds look like they might clear up.
+(01101) Enjoy stepping through some mud puddles on your way.
+
+---
+
+z_0111
+
+What horrible luck; you raise your fist to the sky as if it was the fault of
+the clouds. They only respond by pouring more rain onto you. The dog is
+already nowhere to be seen.
+
+Might as well cut your losses and head home.
+
+(01110) Take off your soggy socks first.
+(01111) Slosh through every puddle on the way.
+
+---
