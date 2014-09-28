@@ -115,7 +115,7 @@ var BobStory =
   },
 
   "ending0" :
-  { text: "Ending 0",
+  { text: "<p>Ending 0</p>",
     choices: [],
     links: []
   }
@@ -154,15 +154,29 @@ function render() {
   }
 }
 
-// XXX implement restart. in character column?
 function end_game() {
- console.log("game ended");
- $("#choice"+character+"A").html("");
- $("#choice"+character+"B").html("");
- // $("#restartBtn").show();
+  console.log("game ended");
+  $("#choice"+character+"A").hide();
+  $("#choice"+character+"B").hide();
+  if (character == "Alice") {
+    $("#restartBtnAlice").show();
+  } else {
+    $("#restartBtnBob").show();
+  }
 }
 
 function init_game() {
+  mode = "not yet started";
+  $("#restartBtnAlice").hide();
+  $("#restartBtnBob").hide();
+
+  // initialize html. ugly to hardcode this :/
+  /*$("#prefixAlice").html("the package feels heavy, but you \
+          <div class=\"choice\" id=\"selectAlice\"> keep it balanced</div>\
+                against your left hip.");
+  $("#prefixBob").html("flasdjfalskdjf");
+  */
+
   // initialize cursors to the "start" field of each story
   for (var ch in story) {
     idx = story[ch].start;
@@ -253,6 +267,8 @@ function pickCharacter(c) {
 
 
 $("#beginBtn").click(init_game);
+// $("#restartBtnBob").click(init_game);
+$("#restartBtnAlice").click(init_game);
 $("#selectAlice").click(function () {pickCharacter(characters[0])});
 $("#selectBob").  click(function () {pickCharacter(characters[1])});
 
