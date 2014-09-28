@@ -551,7 +551,7 @@ var BobStory =
           today, you just turn your face towards the falling raindrops, let yourself\
           get drenched, and keep running.</p>",
     choices: ["Run.", "Run."],
-    links: ["z_00100", "z_00101"]
+    links: ["00100", "00101"]
   },
 
   "z_0011":
@@ -560,7 +560,7 @@ var BobStory =
           steely-grey sky, water droplets stinging your eyes for a moment, as you judge\
           what time it is.</p>",
     choices: ["Run back the way you came.", "Run back the scenic way."],
-    links: ["z_00110", "z_00111"]
+    links: ["00110", "00111"]
   },
 
   "z_010":
@@ -851,28 +851,21 @@ function choose(choice) {
     // get the plaintext of the current prefix.
     prefix = $("#prefix"+ch).html(); // + "<br><br>";
 
-    // check if there is a next scene.
-    if (cursors[ch].choices.length != 0) {
-      // add the text of the selected choice.
-      prefix += cursors[ch].choices[choice]; // + "<br><br>";
+    // add the text of the selected choice.
+    prefix += "<div class=\"chosen\">"+cursors[ch].choices[choice]+"</div>"; // + "<br><br>";
 
-      passage_name = cursors[ch].links[choice];
-      // update the cursor
-      console.log("updating "+ch+"'s cursor to "+passage_name+"\n");
-      cursors[ch] = story[ch][passage_name];
-      // add the text of the next scene.
-      prefix += cursors[ch].text;// + "<br><br>";
-
-      // update the prefix document element.
-      // (XXX ideally this would be in render, but then render would need to
-      // loop additionally over the characters...)
-      $("#prefix"+ch).html(prefix);
-
-      // extra check to fix off by 1
-      if (cursors[ch].choices.length == 0) {
-        mode = "done";
-      }
-    } else {
+    // update the cursor
+    passage_name = cursors[ch].links[choice];
+    console.log("updating "+ch+"'s cursor to "+passage_name+"\n");
+    cursors[ch] = story[ch][passage_name];
+    prefix += cursors[ch].text;// + "<br><br>";
+    // update the prefix document element.
+    // (XXX ideally this would be in render, but then render would need to
+    // loop additionally over the characters...)
+    $("#prefix"+ch).html(prefix);
+    
+    // check if the new passage is an ending
+    if (cursors[ch].choices.length == 0) {
       mode = "done";
     }
 
