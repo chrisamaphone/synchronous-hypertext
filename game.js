@@ -144,6 +144,8 @@ function render() {
     passage = cursors[character];
     $("#choice"+character+"A").text(passage.choices[0]);
     $("#choice"+character+"B").text(passage.choices[1]);
+    $("#choice"+character+"A").show();
+    $("#choice"+character+"B").show();
     mode = "playing";
   } 
   else {
@@ -170,13 +172,11 @@ function init_game() {
   $("#restartBtnAlice").hide();
   $("#restartBtnBob").hide();
 
-  // initialize html. ugly to hardcode this :/
-  /*$("#prefixAlice").html("the package feels heavy, but you \
-          <div class=\"choice\" id=\"selectAlice\"> keep it balanced</div>\
-                against your left hip.");
-  $("#prefixBob").html("flasdjfalskdjf");
-  */
-
+  $("#choiceAliceA").hide();
+  $("#choiceAliceB").hide();
+  $("#choiceBobA").hide();
+  $("#choiceBobB").hide();
+  
   // initialize cursors to the "start" field of each story
   for (var ch in story) {
     idx = story[ch].start;
