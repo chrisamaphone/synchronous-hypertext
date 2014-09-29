@@ -45,6 +45,7 @@ a:hover {
   color: #f00;
 }
 .choice {
+    font-size: 1em;
     background-color: #000;
     font-style: italic;
     color: #ef3;

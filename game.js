@@ -11,7 +11,7 @@ var AliceStory = {
   start: "a_",
 
   "a_" :
-  { text: "<p>The exhaust from the 67 bus is hot against your side while you're standing at a red light for Beechwood Boulevard, and you wonder why you even took this route.</p> <p>The light for Beechwood turns yellow, and cross-traffic is about to stop.</p>",
+  { text: "<p>The exhaust from the 67 bus is hot against your side while you're standing at the red light for Beechwood Boulevard, and you wonder why you even took this route.</p> <p>The light for Beechwood turns yellow, and cross-traffic is about to stop.</p>",
     choices: 
       [ "Anticipate your green light and blow through as soon as you have a gap.",
         "Wait for the 67 to get ahead of you before you fall in behind it."],
@@ -93,8 +93,8 @@ var AliceStory = {
   {
     text: "<p>You know that you're going to run into traffic whichever road you're on,\
             so you might as well stick to your route here.</p>\
-            <p>The light turns before long.</p>",
-    choices: ["Looks like that wasn't too bad of a wait.", "You're still impatient."],
+            <p>The light turns before too long.</p>",
+    choices: ["Looks like that wasn't so bad of a wait.", "You're still impatient."],
     links: ["a_0110", "a_0111"]
   },
 
@@ -138,7 +138,7 @@ var AliceStory = {
 
   "a_0010" :
   {
-    text: "<p>The dog keeps pace with you with a loping gait, its tongue hanging out of a\
+    text: "<p>The dog keeps pace with a loping gait, its tongue hanging out of a\
             knowing grin. What do dogs even think they know, anyway?</p>\
             <p>You've got a package to deliver, so you can't keep staring at it forever.</p>",
     choices: ["Give it a quick pat on the head and move on", 
@@ -159,7 +159,7 @@ var AliceStory = {
 
   "a_1000" :
   {
-    text: "<p>The barricade only covers the road, so you pop over the curb and roll\
+    text: "<p>The barricade only blocks the road, so you pop over the curb and roll\
           along down the sidewalk. Despite the road work signs, you can't see any\
           evidence that they're working today.</p>\
           <p>This is probably a decent shortcut.</p>",
@@ -274,7 +274,7 @@ var AliceStory = {
     links: ["11100", "11101"]
   },
   
-  "a_11111":
+  "a_1111":
   { text:"<p>You can deal with the weight where it is, but it's cramping up your neck.</p>\
           <p>When you cross the next intersection, you splash some pedestrian.</p>",
     choices:["Shout an apology.", "Don't worry about them."],
@@ -287,7 +287,8 @@ var AliceStory = {
            <p>The cyclist, impatient with a delivery job, only gave her a helpless shrug.</p>\
            <p>Roller had escaped not too long ago, and made friends with a quiet jogger a\
            few streets over. The jogger led him unknowingly towards the meeting between\
-           the woman and the cyclist.</p>",
+           the woman and the cyclist.</p>\
+	   <p>The four converged and made the appropriate exchanges. The rain eased up overnight.</p>",
     choices: [],
     links: []
   },
@@ -330,7 +331,8 @@ var AliceStory = {
           friends with a quiet jogger a few streets over. They continued running\
           together while the jogger hoped to pass someone who might have a phone.</p>\
           <p>Before long, though, Roller and the jogger ended up back where the woman\
-          was standing around ineffectually. The three of them converged.</p>",
+          was standing around ineffectually. The three of them converged.</p>\
+	  <p>The rain continued through the night.</p>",
     choices: [],
     links: []
   },
@@ -360,8 +362,7 @@ var AliceStory = {
   { text: "<p> A courier waited around at the designated drop-off point, after\
            getting a strange feeling that sometimes animals might know more\
            than they let on.</p>\
-           <p>After waiting at the drop off point for almost the entire delivery\
-           window, a runner came screeching around the corner.</p>\
+           <p>Right before the delivery window closed, a runner came screeching around the corner.</p>\
            <p>\"Sorry, I'm late.\"</p>\
            <p>\"Not yet\; you have eighty-three seconds to spare.\"</p>\
            <p>The courier passed the package to the runner.</p>\
@@ -383,7 +384,7 @@ var AliceStory = {
   { text: "<p>\"Hey!\" a runner yelled at an approaching courier. \"Grab that dog!\"</p>\
            <p>The courier kept both hands on the handlebar while weaving through the\
            construction rubble, and the dog easily dodged.</p>\
-           <p>There wasn\'t much to do about it.</p>",
+	   <p>The dog, the runner, the courier, and the package diverged. The rain continued overnight, and waited for a chance to try again.</p>",
     choices: [],
     links: []
   },
@@ -394,7 +395,8 @@ var AliceStory = {
            <p>The dog\'s name was Roller, and he almost managed to get out of the\
            courier\'s reach.</p>\
            <p>\"Hey, nice grab!\" said a passing runner who was missing a shoe. The\
-           shoe happened to be in Roller\'s mouth.</p>",
+           shoe happened to be in Roller\'s mouth, and it was soon reunited with the runner.</p>\
+	   <p>The rain eased up overnight.</p>",
     choices: [],
     links: []
   },
@@ -403,9 +405,10 @@ var AliceStory = {
   { text: "<p> A runner with a missing shoe limped down the block, and waved at a passing\
            courier.</p>\
            <p>\"Nice rack! Gimme a lift for a dollar?\"</p>\
-           <p>The courier grins and flips off the runner simultaneously. There\
+           <p>The courier grinned and flipped off the runner simultaneously. There\
            wasn't enough time left on the clock to stop and banter with everyone\
-           who made stupid comments.</p>",
+           who made stupid comments.</p>\
+	   <p>The rain grew stronger as they diverged.</p>",
     choices: [],
     links: []
   },
@@ -416,7 +419,8 @@ var AliceStory = {
            closing.</p>\
            <p>\"Hey, dickwheels, watch it!\" scolded a runner who limped down the block\
            with one shoe.</p>\
-           <p>The courier considered less stressful job options.</p>",
+           <p>The courier considered less stressful job options.</p>\
+	   <p>The rain grew stronger as they diverged.</p>",
     choices: [],
     links: []
   },
@@ -425,7 +429,8 @@ var AliceStory = {
   { text: "<p> The thirty-ninth day of rain came to a close, and everyone on the ground\
            breathed a simultaneous sigh of relief.</p>\
            <p>A courier was late for a delivery, but so was the recipient, who was a\
-           runner that lost two shoes to a passing dog.</p>",
+           runner that lost two shoes to a passing dog.</p>\
+	   <p>The rain slowed down overnight.</p>",
     choices: [],
     links: []
   },
@@ -531,7 +536,8 @@ var AliceStory = {
   { text: "<p> A drenched and soggy runner moves along under the rain and waved at a\
           passing courier.</p>\
           <p>\"Nice rack! Gimme a lift for a dollar?\"</p>\
-          <p>The courier grins and flips off the runner simultaneously. There wasn't enough time left on the clock to stop and banter with everyone who made stupid comments.</p>",
+          <p>The courier grinned and flipped off the runner simultaneously. There wasn't enough time left on the clock to stop and banter with everyone who made stupid comments.</p>\
+	   <p>The rain grew stronger as they diverged.</p>",
     choices: [],
     links: []
   },
@@ -539,7 +545,8 @@ var AliceStory = {
   "10111" :
   { text: "<p> A courier worried about the time while making a lot of bad pathfinding decisions. There was a package to deliver, and the delivery window was closing.</p>\
           <p>\"Hey, dickwheels, watch it!\" scolded a soggy runner who was annoyed at almost getting run over by the distracted courier.</p>\
-          <p>The courier considered less stressful job options.</p>",
+          <p>The courier considered less stressful job options.</p>\
+	   <p>The rain grew stronger as they diverged.</p>",
     choices: [],
     links: []
   },
@@ -631,7 +638,7 @@ var BobStory =
   },
   
   "z_1":
-  { text: "</p>You don't want to take your chances with the DPW today, even if it means a spontaneous hill workout.</p><p>In fact, you can see the Snegley hill looming a block ahead of you.</p>",
+  { text: "<p>You don't want to take your chances with the DPW today, even if it means a spontaneous hill workout.</p><p>In fact, you can see the Snegley hill looming a block ahead of you.</p>",
     choices: ["Actually, never mind; turn right on Wilkins Avenue instead.",
               "Tell your legs to shut up and sprint for it."], 
     links: ["z_10", "z_11"]
@@ -785,7 +792,7 @@ var BobStory =
 
   "z_0100":
   { text:"<p>You splash through puddles after the dog as it waves your shoe at you in a\
-          taunt. It's almost as if the dog is moderating its pace to stay just out of\
+          taunt. It's almost as if the dog is adjusting its pace to stay just out of\
           your reach.</p><p>\
           Up ahead, you see a cyclist coming up the sidewalk.</p>",
     choices: ["Yell at the cyclist to grab the dog.",
@@ -888,12 +895,6 @@ var BobStory =
     choices:["You\'re already drenched anyway.", "That\'s the last straw."],
     links: ["11110", "11111"]
   },
-
-  "ending0" :
-  { text: "<p>Dummy ending text</p>",
-    choices: [],
-    links: []
-  }
 }; //end BobStory
 
 // add the same endings to Bob's Story as to Alice's.
