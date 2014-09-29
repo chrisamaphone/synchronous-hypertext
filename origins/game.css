@@ -1,0 +1,94 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-size: 24px;
+}
+
+a {
+  color: #efa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+ }
+
+#title {
+  font-size: 50px;
+}
+
+#subtitle {
+  font-size: 14px;
+  margin-top: -40px;
+ }
+.button {
+ /*   border-radius: 20px; */
+    background-color: #000;
+    color: #ef3;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 36px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #444;
+}
+.button:active {
+    border: 1px solid #444;
+    background-color: white;
+    color: #444;
+}
+.chosen {
+  font-style: italic;
+  color: #f00;
+}
+.choice {
+    font-size: 1em;
+    background-color: #000;
+    color: #ef3;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+.choice:hover {
+    color: #444;
+}
+.choice:active {
+    border: 1px solid #444;
+    background-color: white;
+    color: #444;
+}
+
+.charname {
+  font-size: 30px;
+}
+
+body { margin: 0px; }
+*  { 
+  cursor: default; 
+  /* border: 1px red solid; */
+}
+td { border: 1px solid #9ac; } 
+
+table { border-spacing: 0px; } /* border-collapse: collapse; } */
+.small {
+    font-size: 9px;
+}
+td { text-align: center; 
+     padding: 8px;}
+
+.invisible td {
+    border: 0px;
+}
+
+.dropcap { float: left; font-size: 60px; font-family: serif;
+	   line-height: 50px; padding-right: 3px; padding-left: 3px;  }
+.intro { 
+  width: 50%; 
+  margin: auto; 
+  text-align: justify; 
+  border: 0px; 
+  font-size: 24px;
+}
