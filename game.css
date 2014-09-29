@@ -3,6 +3,16 @@ body {
   color: #fff;
   font-size: 24px;
 }
+
+a {
+  color: #efa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+ }
+
 #title {
   font-size: 36px;
 }
