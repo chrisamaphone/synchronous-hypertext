@@ -14,8 +14,13 @@ a:hover {
  }
 
 #title {
-  font-size: 36px;
+  font-size: 50px;
 }
+
+#subtitle {
+  font-size: 14px;
+  margin-top: -40px;
+ }
 .button {
  /*   border-radius: 20px; */
     background-color: #000;
@@ -57,7 +62,7 @@ a:hover {
 }
 
 .charname {
-  font-size: 36px;
+  font-size: 30px;
 }
 
 body { margin: 0px; }

@@ -11,9 +11,9 @@ var AliceStory = {
   start: "a_",
 
   "a_" :
-  { text: "<p>The exhaust from the 67 bus is hot against your side while you're standing at a red light for Beechwood Boulevard, and you wonder why you even took this route.</p> <p>The light for Beechwood turned yellow, and cross-traffic is about to stop.</p>",
+  { text: "<p>The exhaust from the 67 bus is hot against your side while you're standing at a red light for Beechwood Boulevard, and you wonder why you even took this route.</p> <p>The light for Beechwood turns yellow, and cross-traffic is about to stop.</p>",
     choices: 
-      [ "Anticipate your green light and blow through the moment you have a gap.",
+      [ "Anticipate your green light and blow through as soon as you have a gap.",
         "Wait for the 67 to get ahead of you before you fall in behind it."],
     links: ["a_0", "a_1"]
   },
