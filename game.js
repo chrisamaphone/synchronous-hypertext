@@ -1,6 +1,6 @@
 var int = Math.floor;
 var mode = "not yet started";
-var pov = ""; // omnicient or myopic
+var pov = ""; // omnicient or myopic, "o" or "m"
 var rand = Math.random;
 var character = "not yet selected";
 var characters = ["Alice", "Bob"];
@@ -926,32 +926,37 @@ function render() {
   // do nothing
   }
   else if (mode == "start") {   
-    // this is for single character mode
-//     passage = cursors[character];
-//     $("#choice"+character+"A").text(passage.choices[0]);
-//     $("#choice"+character+"B").text(passage.choices[1]);
-//     $("#choice"+character+"A").show();
-//     $("#choice"+character+"B").show();
-  // this is for multi character mode
-    for (var ch in story) {
-      passage = cursors[ch];
-      $("#choice"+ch+"A").text(passage.choices[0]);
-      $("#choice"+ch+"B").text(passage.choices[1]);
-      $("#choice"+ch+"A").show();
-      $("#choice"+ch+"B").show();
+    // this is for myopic mode
+    if (pov == "m") {
+      passage = cursors[character];
+      $("#choice"+character+"A").text(passage.choices[0]);
+      $("#choice"+character+"B").text(passage.choices[1]);
+      $("#choice"+character+"A").show();
+      $("#choice"+character+"B").show();
+    } else {
+    // omniscient mode
+      for (var ch in story) {
+        passage = cursors[ch];
+        $("#choice"+ch+"A").text(passage.choices[0]);
+        $("#choice"+ch+"B").text(passage.choices[1]);
+        $("#choice"+ch+"A").show();
+        $("#choice"+ch+"B").show();
+      }
     }
-
     mode = "playing";
   } 
-  else {
-    for (var ch in story) {
-      $("#choice"+ch+"A").text(cursors[ch].choices[0]);
-      $("#choice"+ch+"B").text(cursors[ch].choices[1]);
-    }
+  else { // mode is playing
+    if (pov == "o") {
+      for (var ch in story) {
+        $("#choice"+ch+"A").text(cursors[ch].choices[0]);
+        $("#choice"+ch+"B").text(cursors[ch].choices[1]);
+      }
+    } else { // pov myopic
   // choice fields for the *selected* character to set up the next choice.
-//     choices = cursors[character]["choices"];
-//     $("#choice"+character+"A").text(choices[0]);
-//     $("#choice"+character+"B").text(choices[1]);
+     choices = cursors[character]["choices"];
+     $("#choice"+character+"A").text(choices[0]);
+     $("#choice"+character+"B").text(choices[1]);
+    }
   }
 }
 
@@ -971,17 +976,19 @@ function end_game() {
   */
 }
 
-function init_game() {
+function init_game(p) {
+  pov = p;
   mode = "not yet started";
   $("#restartBtnAlice").hide();
   $("#restartBtnBob").hide();
   $("#ending").hide();
 
-//  $("#choiceAliceA").hide();
-//  $("#choiceAliceB").hide();
-//  $("#choiceBobA").hide();
-//  $("#choiceBobB").hide();
-//
+  if (pov == "m") {
+    $("#choiceAliceA").hide();
+    $("#choiceAliceB").hide();
+    $("#choiceBobA").hide();
+    $("#choiceBobB").hide();
+  }
 
   for (var ch in story) {
     $("#choice"+ch+"A").show();
@@ -1057,28 +1064,28 @@ function choose(choice) {
 function pickCharacter(c) {
   character = c;
 
-  // this is for controlling only a single char
-//   $("#choice"+c+"A").click(function () {
-//     console.log("chose A");
-//     choose(0);
-//   });
-// 
-//   $("#choice"+c+"B").click(function () {
-//     console.log("chose B");
-//     choose(1);
-//   });
-
-  // this is for controlling all chars at once:
-  for (var ch in story) {
-    $("#choice"+ch+"A").click(function () {
-        console.log("chose A");
-        choose(0);
+  if (pov == "m") {
+    $("#choice"+c+"A").click(function () {
+      console.log("chose A");
+      choose(0);
     });
-    
-    $("#choice"+ch+"B").click(function () {
+  
+    $("#choice"+c+"B").click(function () {
       console.log("chose B");
       choose(1);
     });
+  } else { // omniscient mode
+    for (var ch in story) {
+      $("#choice"+ch+"A").click(function () {
+          console.log("chose A");
+          choose(0);
+      });
+      
+      $("#choice"+ch+"B").click(function () {
+        console.log("chose B");
+        choose(1);
+      });
+    }
   }
 
   // update prefixes for every character
@@ -1093,7 +1100,8 @@ function pickCharacter(c) {
 }
 
 
-$("#beginBtn").click(init_game);
+$("#beginMyopicBtn").click(function () {init_game("m");});
+$("#beginOmniscientBtn").click(function () {init_game("o");});
 // $("#restartBtnBob").click(init_game);
 //$("#restartBtnAlice").click(init_game);
 $("#selectAlice").click(function () {pickCharacter(characters[0])});
