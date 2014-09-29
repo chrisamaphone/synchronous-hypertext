@@ -1,5 +1,6 @@
 var int = Math.floor;
 var mode = "not yet started";
+var pov = ""; // omnicient or myopic
 var rand = Math.random;
 var character = "not yet selected";
 var characters = ["Alice", "Bob"];
@@ -955,22 +956,26 @@ function render() {
 }
 
 function end_game() {
+  $("#ending").show();
   console.log("game ended");
   for (var ch in story) {
     $("#choice"+ch+"A").hide();
     $("#choice"+ch+"B").hide();
   }
+  /*
   if (character == "Alice") {
     $("#restartBtnAlice").show();
   } else {
     $("#restartBtnBob").show();
   }
+  */
 }
 
 function init_game() {
   mode = "not yet started";
   $("#restartBtnAlice").hide();
   $("#restartBtnBob").hide();
+  $("#ending").hide();
 
 //  $("#choiceAliceA").hide();
 //  $("#choiceAliceB").hide();
@@ -1021,7 +1026,12 @@ function choose(choice) {
     passage_name = cursors[ch].links[choice];
     console.log("updating "+ch+"'s cursor to "+passage_name+"\n");
     cursors[ch] = story[ch][passage_name];
-    prefix += cursors[ch].text;// + "<br><br>";
+
+    if (cursors[ch].choices.length != 0) {
+      // add the new prompt to the prefix.
+      prefix += cursors[ch].text;// + "<br><br>";
+    }
+
     // update the prefix document element.
     // (XXX ideally this would be in render, but then render would need to
     // loop additionally over the characters...)
@@ -1033,6 +1043,11 @@ function choose(choice) {
     }
 
   } // end loop over characters  
+
+  if (mode == "done") {
+      // add the new prompt to the *ending* text.
+      $("#ending_text").html(cursors[ch].text);
+  }
 
   turns++;
   render();
@@ -1080,7 +1095,7 @@ function pickCharacter(c) {
 
 $("#beginBtn").click(init_game);
 // $("#restartBtnBob").click(init_game);
-$("#restartBtnAlice").click(init_game);
+//$("#restartBtnAlice").click(init_game);
 $("#selectAlice").click(function () {pickCharacter(characters[0])});
 $("#selectBob").  click(function () {pickCharacter(characters[1])});
 
